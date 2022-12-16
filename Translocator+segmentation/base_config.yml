@@ -1,0 +1,27 @@
+optim: AdamW
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.00005
+scheduler: Cosine
+
+
+model_params:
+  batch_size: 2
+  msgpack_train_dir: /home/sungkuk0620/Transformer_Based_Geo-localization/resources/mp16_shards/
+  msgpack_train_seg_dir: /home/sungkuk0620/shard_seg_train/
+  msgpack_val_dir: /home/sungkuk0620/Transformer_Based_Geo-localization/resources/mp16_shards_valid
+#   msgpack_val_dir: /home/sungkuk0620/Transformer_Based_Geo-localization/resources/enowara/yfcc25600
+  msgpack_val_seg_dir: /home/sungkuk0620/shard_seg_val/
+  # meta information i.e. coordinates for each image
+  train_meta_path: ./../resources/mp16_places365.csv
+  val_meta_path: ./../resources/mp16_places365.csv
+  # mapping from image ids in msgpack dataset to target value(s)
+  # orient: index -> {"img_id": [t1, t2], ...}
+  train_label_mapping: ./../resources/mp16_places365_mapping_h3.json
+  val_label_mapping: ./../resources/mp16_places365_mapping_h3.json
+  segment_file_path: ./../resources/semantic_cagtegories.mat
+  key_img_id: id # image id name for msgpack dataset
+  key_img_encoded: image # image data name for msgpack dataset
+  num_workers_per_loader: 1
+  percent_seg_pixels: 1
+

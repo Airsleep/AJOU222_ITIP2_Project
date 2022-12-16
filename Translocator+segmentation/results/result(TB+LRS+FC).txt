@@ -1,0 +1,1193 @@
+Some weights of the model checkpoint at facebook/deit-tiny-patch16-224 were not used when initializing ViTModel: ['classifier.bias', 'classifier.weight']
+- This IS expected if you are initializing ViTModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ViTModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ViTModel were not initialized from the model checkpoint at facebook/deit-tiny-patch16-224 and are newly initialized: ['vit.pooler.dense.weight', 'vit.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+14999
+Epoch [1/15], Step [100/14999], Loss: 14.6400 time consumed: 16.001826286315918
+Epoch [1/15], Step [200/14999], Loss: 12.8617 time consumed: 30.618321418762207
+Epoch [1/15], Step [300/14999], Loss: 13.0655 time consumed: 45.135369300842285
+Epoch [1/15], Step [400/14999], Loss: 10.7072 time consumed: 59.61329531669617
+Epoch [1/15], Step [500/14999], Loss: 12.2613 time consumed: 74.32018041610718
+Epoch [1/15], Step [600/14999], Loss: 10.3898 time consumed: 88.61680626869202
+Epoch [1/15], Step [700/14999], Loss: 13.2745 time consumed: 103.01195335388184
+Epoch [1/15], Step [800/14999], Loss: 10.6127 time consumed: 117.57485318183899
+Epoch [1/15], Step [900/14999], Loss: 13.5416 time consumed: 131.89925336837769
+Epoch [1/15], Step [1000/14999], Loss: 12.8620 time consumed: 146.22410464286804
+Epoch [1/15], Step [1100/14999], Loss: 9.4690 time consumed: 160.6385931968689
+Epoch [1/15], Step [1200/14999], Loss: 10.1986 time consumed: 175.04796528816223
+Epoch [1/15], Step [1300/14999], Loss: 12.7551 time consumed: 189.47379994392395
+Epoch [1/15], Step [1400/14999], Loss: 13.2261 time consumed: 203.80954122543335
+Epoch [1/15], Step [1500/14999], Loss: 14.9671 time consumed: 218.13757705688477
+Epoch [1/15], Step [1600/14999], Loss: 13.8051 time consumed: 232.57940983772278
+Epoch [1/15], Step [1700/14999], Loss: 10.7715 time consumed: 247.10423183441162
+Epoch [1/15], Step [1800/14999], Loss: 14.2161 time consumed: 261.7154276371002
+Epoch [1/15], Step [1900/14999], Loss: 13.7928 time consumed: 276.14353227615356
+Epoch [1/15], Step [2000/14999], Loss: 14.5036 time consumed: 290.64705657958984
+Epoch [1/15], Step [2100/14999], Loss: 11.2756 time consumed: 305.0348744392395
+Epoch [1/15], Step [2200/14999], Loss: 13.6283 time consumed: 319.38266682624817
+Epoch [1/15], Step [2300/14999], Loss: 11.4642 time consumed: 333.91963839530945
+Epoch [1/15], Step [2400/14999], Loss: 11.7060 time consumed: 348.55977034568787
+Epoch [1/15], Step [2500/14999], Loss: 11.1185 time consumed: 363.03432059288025
+Epoch [1/15], Step [2600/14999], Loss: 12.0202 time consumed: 377.5277533531189
+Epoch [1/15], Step [2700/14999], Loss: 10.3732 time consumed: 392.01747488975525
+Epoch [1/15], Step [2800/14999], Loss: 12.8246 time consumed: 406.14258432388306
+Epoch [1/15], Step [2900/14999], Loss: 10.5153 time consumed: 420.7070302963257
+Epoch [1/15], Step [3000/14999], Loss: 12.5693 time consumed: 435.330961227417
+Epoch [1/15], Step [3100/14999], Loss: 15.8461 time consumed: 449.80928444862366
+Epoch [1/15], Step [3200/14999], Loss: 13.2110 time consumed: 464.2016885280609
+Epoch [1/15], Step [3300/14999], Loss: 13.3138 time consumed: 478.9514503479004
+Epoch [1/15], Step [3400/14999], Loss: 14.4827 time consumed: 493.42572498321533
+Epoch [1/15], Step [3500/14999], Loss: 11.6360 time consumed: 507.97524213790894
+Epoch [1/15], Step [3600/14999], Loss: 16.2771 time consumed: 522.5235624313354
+Epoch [1/15], Step [3700/14999], Loss: 9.3475 time consumed: 536.7820022106171
+Epoch [1/15], Step [3800/14999], Loss: 13.3665 time consumed: 551.4769032001495
+Epoch [1/15], Step [3900/14999], Loss: 13.4083 time consumed: 565.878749370575
+Epoch [1/15], Step [4000/14999], Loss: 9.8941 time consumed: 580.1577990055084
+Epoch [1/15], Step [4100/14999], Loss: 15.4295 time consumed: 594.6299123764038
+Epoch [1/15], Step [4200/14999], Loss: 13.0187 time consumed: 608.9311401844025
+Epoch [1/15], Step [4300/14999], Loss: 11.3012 time consumed: 623.107990026474
+Epoch [1/15], Step [4400/14999], Loss: 11.0128 time consumed: 637.7494521141052
+Epoch [1/15], Step [4500/14999], Loss: 13.9361 time consumed: 651.8507752418518
+Epoch [1/15], Step [4600/14999], Loss: 12.3133 time consumed: 666.2082073688507
+Epoch [1/15], Step [4700/14999], Loss: 12.6118 time consumed: 680.248138666153
+Epoch [1/15], Step [4800/14999], Loss: 14.0576 time consumed: 694.6027162075043
+Epoch [1/15], Step [4900/14999], Loss: 11.7064 time consumed: 709.072359085083
+Epoch [1/15], Step [5000/14999], Loss: 9.8453 time consumed: 723.3875846862793
+Epoch [1/15], Step [5100/14999], Loss: 15.8817 time consumed: 737.3723301887512
+Epoch [1/15], Step [5200/14999], Loss: 11.9580 time consumed: 751.8272161483765
+Epoch [1/15], Step [5300/14999], Loss: 16.6404 time consumed: 766.1275322437286
+Epoch [1/15], Step [5400/14999], Loss: 11.1647 time consumed: 780.2851853370667
+Epoch [1/15], Step [5500/14999], Loss: 12.6802 time consumed: 794.5681447982788
+Epoch [1/15], Step [5600/14999], Loss: 11.0177 time consumed: 808.9021255970001
+Epoch [1/15], Step [5700/14999], Loss: 14.5826 time consumed: 823.5390567779541
+Epoch [1/15], Step [5800/14999], Loss: 10.7739 time consumed: 838.0352540016174
+Epoch [1/15], Step [5900/14999], Loss: 11.9415 time consumed: 852.7307415008545
+Epoch [1/15], Step [6000/14999], Loss: 13.2365 time consumed: 866.7288670539856
+Epoch [1/15], Step [6100/14999], Loss: 9.8611 time consumed: 881.1677145957947
+ Accuracy of the network on the test set after Epoch 1 is: 0.0039734025300032436
+ Top 2 accuracy on the testing: 0.006973726889393448
+ Top 5 accuracy on the testing: 0.011839117742458645
+ Top 10 accuracy on the testing: 0.017353227375932534
+ Top 50 accuracy on the testing: 0.04443723645799546
+ Top 100 accuracy on the testing: 0.06406097956535842
+ Top 200 accuracy on the testing: 0.08968537139150179
+ Top 300 accuracy on the testing: 0.11206616931560169
+ Top 500 accuracy on the testing: 0.14985403827440805
+ Best Top_1_accuracy on test set till this epoch: 0.0039734025300032436 Found in Epoch No: 1
+ Best Top_10_accuracy on test set till this epoch: 0.017353227375932534 Found in Epoch No: 1
+ Best Top_50_accuracy on test set till this epoch: 0.04443723645799546 Found in Epoch No: 1
+ Best Top_100_accuracy on test set till this epoch: 0.06406097956535842 Found in Epoch No: 1
+ Best Top_200_accuracy on test set till this epoch: 0.08968537139150179 Found in Epoch No: 1
+ Best Top_300_accuracy on test set till this epoch: 0.11206616931560169 Found in Epoch No: 1
+ Best Top_500_accuracy on test set till this epoch: 0.14985403827440805 Found in Epoch No: 1
+ Top_1_accuracy: [0.0039734025300032436]
+14999
+Epoch [2/15], Step [100/14999], Loss: 9.9535 time consumed: 3723.5700130462646
+Epoch [2/15], Step [200/14999], Loss: 7.0976 time consumed: 3738.3328635692596
+Epoch [2/15], Step [300/14999], Loss: 5.5835 time consumed: 3752.9520258903503
+Epoch [2/15], Step [400/14999], Loss: 7.8456 time consumed: 3767.401025533676
+Epoch [2/15], Step [500/14999], Loss: 8.5197 time consumed: 3782.0341856479645
+Epoch [2/15], Step [600/14999], Loss: 6.2522 time consumed: 3796.494929075241
+Epoch [2/15], Step [700/14999], Loss: 8.2966 time consumed: 3810.7212195396423
+Epoch [2/15], Step [800/14999], Loss: 7.0854 time consumed: 3825.286984682083
+Epoch [2/15], Step [900/14999], Loss: 8.9579 time consumed: 3839.546079158783
+Epoch [2/15], Step [1000/14999], Loss: 8.6335 time consumed: 3853.939934492111
+Epoch [2/15], Step [1100/14999], Loss: 7.3582 time consumed: 3868.5319273471832
+Epoch [2/15], Step [1200/14999], Loss: 6.9315 time consumed: 3883.3996698856354
+Epoch [2/15], Step [1300/14999], Loss: 10.2900 time consumed: 3897.9138107299805
+Epoch [2/15], Step [1400/14999], Loss: 9.1909 time consumed: 3912.30140042305
+Epoch [2/15], Step [1500/14999], Loss: 13.2789 time consumed: 3926.5511236190796
+Epoch [2/15], Step [1600/14999], Loss: 10.6846 time consumed: 3941.2554523944855
+Epoch [2/15], Step [1700/14999], Loss: 7.0256 time consumed: 3955.73996257782
+Epoch [2/15], Step [1800/14999], Loss: 9.8577 time consumed: 3970.611376285553
+Epoch [2/15], Step [1900/14999], Loss: 9.8927 time consumed: 3985.205698490143
+Epoch [2/15], Step [2000/14999], Loss: 9.4010 time consumed: 3999.747859477997
+Epoch [2/15], Step [2100/14999], Loss: 8.7445 time consumed: 4014.5457396507263
+Epoch [2/15], Step [2200/14999], Loss: 7.7917 time consumed: 4029.1475138664246
+Epoch [2/15], Step [2300/14999], Loss: 8.1542 time consumed: 4043.7451655864716
+Epoch [2/15], Step [2400/14999], Loss: 9.4198 time consumed: 4058.475566148758
+Epoch [2/15], Step [2500/14999], Loss: 9.4162 time consumed: 4072.898270845413
+Epoch [2/15], Step [2600/14999], Loss: 9.4540 time consumed: 4087.435784101486
+Epoch [2/15], Step [2700/14999], Loss: 6.8531 time consumed: 4102.0078999996185
+Epoch [2/15], Step [2800/14999], Loss: 8.5399 time consumed: 4116.160353422165
+Epoch [2/15], Step [2900/14999], Loss: 7.4486 time consumed: 4130.895401716232
+Epoch [2/15], Step [3000/14999], Loss: 8.2249 time consumed: 4145.451055765152
+Epoch [2/15], Step [3100/14999], Loss: 9.0775 time consumed: 4160.008631944656
+Epoch [2/15], Step [3200/14999], Loss: 14.0498 time consumed: 4174.520124197006
+Epoch [2/15], Step [3300/14999], Loss: 9.4548 time consumed: 4189.3108904361725
+Epoch [2/15], Step [3400/14999], Loss: 11.5778 time consumed: 4203.930363893509
+Epoch [2/15], Step [3500/14999], Loss: 9.1578 time consumed: 4218.4937036037445
+Epoch [2/15], Step [3600/14999], Loss: 11.8150 time consumed: 4233.192866802216
+Epoch [2/15], Step [3700/14999], Loss: 6.2424 time consumed: 4247.827451705933
+Epoch [2/15], Step [3800/14999], Loss: 9.0670 time consumed: 4262.729814529419
+Epoch [2/15], Step [3900/14999], Loss: 10.3023 time consumed: 4277.145066022873
+Epoch [2/15], Step [4000/14999], Loss: 7.6532 time consumed: 4291.543243169785
+Epoch [2/15], Step [4100/14999], Loss: 9.4467 time consumed: 4306.266272783279
+Epoch [2/15], Step [4200/14999], Loss: 7.5981 time consumed: 4320.694469451904
+Epoch [2/15], Step [4300/14999], Loss: 9.1192 time consumed: 4335.270947217941
+Epoch [2/15], Step [4400/14999], Loss: 8.1889 time consumed: 4350.13423204422
+Epoch [2/15], Step [4500/14999], Loss: 9.6674 time consumed: 4364.520932197571
+Epoch [2/15], Step [4600/14999], Loss: 9.5536 time consumed: 4379.164960384369
+Epoch [2/15], Step [4700/14999], Loss: 9.8031 time consumed: 4393.8570919036865
+Epoch [2/15], Step [4800/14999], Loss: 10.2250 time consumed: 4408.412981510162
+Epoch [2/15], Step [4900/14999], Loss: 8.6865 time consumed: 4422.953906059265
+Epoch [2/15], Step [5000/14999], Loss: 6.5734 time consumed: 4437.521212100983
+Epoch [2/15], Step [5100/14999], Loss: 11.8242 time consumed: 4451.530670642853
+Epoch [2/15], Step [5200/14999], Loss: 6.3135 time consumed: 4465.679216146469
+Epoch [2/15], Step [5300/14999], Loss: 10.3640 time consumed: 4480.117923974991
+Epoch [2/15], Step [5400/14999], Loss: 8.1261 time consumed: 4494.416440010071
+Epoch [2/15], Step [5500/14999], Loss: 10.4778 time consumed: 4508.803943634033
+Epoch [2/15], Step [5600/14999], Loss: 8.0409 time consumed: 4523.092733621597
+Epoch [2/15], Step [5700/14999], Loss: 10.2476 time consumed: 4537.737821340561
+Epoch [2/15], Step [5800/14999], Loss: 8.5973 time consumed: 4552.203513145447
+Epoch [2/15], Step [5900/14999], Loss: 9.1749 time consumed: 4566.8886778354645
+Epoch [2/15], Step [6000/14999], Loss: 11.3220 time consumed: 4580.990231990814
+Epoch [2/15], Step [6100/14999], Loss: 5.9362 time consumed: 4595.464824676514
+ Accuracy of the network on the test set after Epoch 2 is: 0.0044599416153097635
+ Top 2 accuracy on the testing: 0.007703535517353227
+ Top 5 accuracy on the testing: 0.012812195913071683
+ Top 10 accuracy on the testing: 0.019623743107362958
+ Top 50 accuracy on the testing: 0.04614012325656828
+ Top 100 accuracy on the testing: 0.06616931560168667
+ Top 200 accuracy on the testing: 0.0962536490431398
+ Top 300 accuracy on the testing: 0.12122932208887448
+ Top 500 accuracy on the testing: 0.15780084333441452
+ Best Top_1_accuracy on test set till this epoch: 0.0044599416153097635 Found in Epoch No: 2
+ Best Top_10_accuracy on test set till this epoch: 0.019623743107362958 Found in Epoch No: 2
+ Best Top_50_accuracy on test set till this epoch: 0.04614012325656828 Found in Epoch No: 2
+ Best Top_100_accuracy on test set till this epoch: 0.06616931560168667 Found in Epoch No: 2
+ Best Top_200_accuracy on test set till this epoch: 0.0962536490431398 Found in Epoch No: 2
+ Best Top_300_accuracy on test set till this epoch: 0.12122932208887448 Found in Epoch No: 2
+ Best Top_500_accuracy on test set till this epoch: 0.15780084333441452 Found in Epoch No: 2
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635]
+14999
+Epoch [3/15], Step [100/14999], Loss: 5.8301 time consumed: 7341.168581485748
+Epoch [3/15], Step [200/14999], Loss: 5.3059 time consumed: 7355.962875127792
+Epoch [3/15], Step [300/14999], Loss: 3.8550 time consumed: 7370.800525188446
+Epoch [3/15], Step [400/14999], Loss: 5.9466 time consumed: 7385.616467475891
+Epoch [3/15], Step [500/14999], Loss: 5.5308 time consumed: 7400.750782251358
+Epoch [3/15], Step [600/14999], Loss: 4.3950 time consumed: 7415.390585899353
+Epoch [3/15], Step [700/14999], Loss: 7.0489 time consumed: 7430.114180088043
+Epoch [3/15], Step [800/14999], Loss: 7.5734 time consumed: 7444.970777511597
+Epoch [3/15], Step [900/14999], Loss: 9.3102 time consumed: 7459.747320175171
+Epoch [3/15], Step [1000/14999], Loss: 5.3964 time consumed: 7474.440366744995
+Epoch [3/15], Step [1100/14999], Loss: 4.8679 time consumed: 7489.427889585495
+Epoch [3/15], Step [1200/14999], Loss: 5.5514 time consumed: 7504.353839874268
+Epoch [3/15], Step [1300/14999], Loss: 8.8483 time consumed: 7519.281108379364
+Epoch [3/15], Step [1400/14999], Loss: 6.7251 time consumed: 7533.961868286133
+Epoch [3/15], Step [1500/14999], Loss: 8.8346 time consumed: 7548.517331838608
+Epoch [3/15], Step [1600/14999], Loss: 6.0123 time consumed: 7563.312766551971
+Epoch [3/15], Step [1700/14999], Loss: 6.6096 time consumed: 7578.047847509384
+Epoch [3/15], Step [1800/14999], Loss: 5.4148 time consumed: 7593.103285312653
+Epoch [3/15], Step [1900/14999], Loss: 5.8490 time consumed: 7608.005930185318
+Epoch [3/15], Step [2000/14999], Loss: 8.1229 time consumed: 7622.900882959366
+Epoch [3/15], Step [2100/14999], Loss: 6.2829 time consumed: 7637.691441297531
+Epoch [3/15], Step [2200/14999], Loss: 7.0466 time consumed: 7652.5870933532715
+Epoch [3/15], Step [2300/14999], Loss: 5.0481 time consumed: 7667.656823635101
+Epoch [3/15], Step [2400/14999], Loss: 7.9836 time consumed: 7682.636940717697
+Epoch [3/15], Step [2500/14999], Loss: 7.2381 time consumed: 7697.567332983017
+Epoch [3/15], Step [2600/14999], Loss: 7.1919 time consumed: 7712.390187501907
+Epoch [3/15], Step [2700/14999], Loss: 7.0989 time consumed: 7727.0934009552
+Epoch [3/15], Step [2800/14999], Loss: 7.2617 time consumed: 7741.741800785065
+Epoch [3/15], Step [2900/14999], Loss: 5.4403 time consumed: 7756.5766541957855
+Epoch [3/15], Step [3000/14999], Loss: 4.5720 time consumed: 7771.504630327225
+Epoch [3/15], Step [3100/14999], Loss: 6.7606 time consumed: 7786.535087347031
+Epoch [3/15], Step [3200/14999], Loss: 10.8147 time consumed: 7801.165744066238
+Epoch [3/15], Step [3300/14999], Loss: 7.9826 time consumed: 7816.262345075607
+Epoch [3/15], Step [3400/14999], Loss: 9.3394 time consumed: 7831.101649045944
+Epoch [3/15], Step [3500/14999], Loss: 6.3175 time consumed: 7845.913172006607
+Epoch [3/15], Step [3600/14999], Loss: 9.5165 time consumed: 7860.892649650574
+Epoch [3/15], Step [3700/14999], Loss: 3.9739 time consumed: 7875.736154317856
+Epoch [3/15], Step [3800/14999], Loss: 7.1940 time consumed: 7890.837994813919
+Epoch [3/15], Step [3900/14999], Loss: 6.5025 time consumed: 7905.649555206299
+Epoch [3/15], Step [4000/14999], Loss: 5.1319 time consumed: 7920.413650751114
+Epoch [3/15], Step [4100/14999], Loss: 9.2237 time consumed: 7935.392488718033
+Epoch [3/15], Step [4200/14999], Loss: 5.9675 time consumed: 7950.216623544693
+Epoch [3/15], Step [4300/14999], Loss: 7.8862 time consumed: 7964.946622848511
+Epoch [3/15], Step [4400/14999], Loss: 6.1441 time consumed: 7980.099246501923
+Epoch [3/15], Step [4500/14999], Loss: 7.2665 time consumed: 7994.646416187286
+Epoch [3/15], Step [4600/14999], Loss: 9.2716 time consumed: 8009.759389638901
+Epoch [3/15], Step [4700/14999], Loss: 8.0288 time consumed: 8024.471803426743
+Epoch [3/15], Step [4800/14999], Loss: 9.8682 time consumed: 8039.457672357559
+Epoch [3/15], Step [4900/14999], Loss: 6.9487 time consumed: 8054.383033514023
+Epoch [3/15], Step [5000/14999], Loss: 4.0954 time consumed: 8069.072349309921
+Epoch [3/15], Step [5100/14999], Loss: 9.8414 time consumed: 8083.91100859642
+Epoch [3/15], Step [5200/14999], Loss: 4.6451 time consumed: 8098.721610069275
+Epoch [3/15], Step [5300/14999], Loss: 9.0115 time consumed: 8113.478967905045
+Epoch [3/15], Step [5400/14999], Loss: 6.0757 time consumed: 8128.131005525589
+Epoch [3/15], Step [5500/14999], Loss: 7.5157 time consumed: 8143.010591268539
+Epoch [3/15], Step [5600/14999], Loss: 6.2789 time consumed: 8157.679047346115
+Epoch [3/15], Step [5700/14999], Loss: 6.4983 time consumed: 8172.837040901184
+Epoch [3/15], Step [5800/14999], Loss: 5.6365 time consumed: 8187.75369477272
+Epoch [3/15], Step [5900/14999], Loss: 9.2002 time consumed: 8202.60235953331
+Epoch [3/15], Step [6000/14999], Loss: 7.8642 time consumed: 8216.774602651596
+Epoch [3/15], Step [6100/14999], Loss: 4.2501 time consumed: 8231.444990158081
+ Accuracy of the network on the test set after Epoch 3 is: 0.0046221213104119365
+ Top 2 accuracy on the testing: 0.007541355822251054
+ Top 5 accuracy on the testing: 0.013460914693480376
+ Top 10 accuracy on the testing: 0.020110282192669478
+ Top 50 accuracy on the testing: 0.046302302951670454
+ Top 100 accuracy on the testing: 0.06543950697372689
+ Top 200 accuracy on the testing: 0.0956049302627311
+ Top 300 accuracy on the testing: 0.12114823224132339
+ Top 500 accuracy on the testing: 0.1586928316574765
+ Best Top_1_accuracy on test set till this epoch: 0.0046221213104119365 Found in Epoch No: 3
+ Best Top_10_accuracy on test set till this epoch: 0.020110282192669478 Found in Epoch No: 3
+ Best Top_50_accuracy on test set till this epoch: 0.046302302951670454 Found in Epoch No: 3
+ Best Top_100_accuracy on test set till this epoch: 0.06616931560168667 Found in Epoch No: 2
+ Best Top_200_accuracy on test set till this epoch: 0.0962536490431398 Found in Epoch No: 2
+ Best Top_300_accuracy on test set till this epoch: 0.12122932208887448 Found in Epoch No: 2
+ Best Top_500_accuracy on test set till this epoch: 0.1586928316574765 Found in Epoch No: 3
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365]
+14999
+Epoch [4/15], Step [100/14999], Loss: 5.2602 time consumed: 11017.128929376602
+Epoch [4/15], Step [200/14999], Loss: 4.0788 time consumed: 11031.80728006363
+Epoch [4/15], Step [300/14999], Loss: 2.7190 time consumed: 11046.47836303711
+Epoch [4/15], Step [400/14999], Loss: 5.3388 time consumed: 11061.30307340622
+Epoch [4/15], Step [500/14999], Loss: 5.8317 time consumed: 11076.430737733841
+Epoch [4/15], Step [600/14999], Loss: 2.0735 time consumed: 11090.80150103569
+Epoch [4/15], Step [700/14999], Loss: 3.9308 time consumed: 11105.191430807114
+Epoch [4/15], Step [800/14999], Loss: 3.5471 time consumed: 11119.815940380096
+Epoch [4/15], Step [900/14999], Loss: 5.0747 time consumed: 11134.205653190613
+Epoch [4/15], Step [1000/14999], Loss: 3.2297 time consumed: 11148.817439079285
+Epoch [4/15], Step [1100/14999], Loss: 2.9815 time consumed: 11163.3061876297
+Epoch [4/15], Step [1200/14999], Loss: 3.9541 time consumed: 11178.065790891647
+Epoch [4/15], Step [1300/14999], Loss: 5.2398 time consumed: 11192.840698480606
+Epoch [4/15], Step [1400/14999], Loss: 3.6707 time consumed: 11207.377367734909
+Epoch [4/15], Step [1500/14999], Loss: 7.5705 time consumed: 11221.75916314125
+Epoch [4/15], Step [1600/14999], Loss: 5.2276 time consumed: 11236.46510386467
+Epoch [4/15], Step [1700/14999], Loss: 5.5784 time consumed: 11250.975520133972
+Epoch [4/15], Step [1800/14999], Loss: 5.2945 time consumed: 11265.738063097
+Epoch [4/15], Step [1900/14999], Loss: 5.0131 time consumed: 11280.39190030098
+Epoch [4/15], Step [2000/14999], Loss: 5.4527 time consumed: 11294.98275899887
+Epoch [4/15], Step [2100/14999], Loss: 4.0909 time consumed: 11309.369583368301
+Epoch [4/15], Step [2200/14999], Loss: 3.6759 time consumed: 11324.016291856766
+Epoch [4/15], Step [2300/14999], Loss: 3.5507 time consumed: 11338.793314695358
+Epoch [4/15], Step [2400/14999], Loss: 5.6946 time consumed: 11353.49758529663
+Epoch [4/15], Step [2500/14999], Loss: 5.4174 time consumed: 11368.003559350967
+Epoch [4/15], Step [2600/14999], Loss: 3.7525 time consumed: 11382.42982840538
+Epoch [4/15], Step [2700/14999], Loss: 3.9254 time consumed: 11396.983917713165
+Epoch [4/15], Step [2800/14999], Loss: 4.0325 time consumed: 11411.169043302536
+Epoch [4/15], Step [2900/14999], Loss: 5.3574 time consumed: 11425.864406347275
+Epoch [4/15], Step [3000/14999], Loss: 2.7941 time consumed: 11440.589844942093
+Epoch [4/15], Step [3100/14999], Loss: 4.9296 time consumed: 11455.263134002686
+Epoch [4/15], Step [3200/14999], Loss: 10.3342 time consumed: 11469.54570388794
+Epoch [4/15], Step [3300/14999], Loss: 6.4372 time consumed: 11484.187247514725
+Epoch [4/15], Step [3400/14999], Loss: 7.1140 time consumed: 11498.757721662521
+Epoch [4/15], Step [3500/14999], Loss: 6.7355 time consumed: 11513.306506156921
+Epoch [4/15], Step [3600/14999], Loss: 7.1903 time consumed: 11528.038912057877
+Epoch [4/15], Step [3700/14999], Loss: 2.5810 time consumed: 11542.378388404846
+Epoch [4/15], Step [3800/14999], Loss: 4.6953 time consumed: 11557.315371990204
+Epoch [4/15], Step [3900/14999], Loss: 6.2118 time consumed: 11571.80156326294
+Epoch [4/15], Step [4000/14999], Loss: 3.9299 time consumed: 11586.322428703308
+Epoch [4/15], Step [4100/14999], Loss: 7.2321 time consumed: 11600.934521913528
+Epoch [4/15], Step [4200/14999], Loss: 3.7654 time consumed: 11615.34100317955
+Epoch [4/15], Step [4300/14999], Loss: 6.3395 time consumed: 11629.905414581299
+Epoch [4/15], Step [4400/14999], Loss: 6.0615 time consumed: 11644.668571949005
+Epoch [4/15], Step [4500/14999], Loss: 4.9294 time consumed: 11658.732485055923
+Epoch [4/15], Step [4600/14999], Loss: 5.1439 time consumed: 11673.388933420181
+Epoch [4/15], Step [4700/14999], Loss: 5.3629 time consumed: 11687.698100328445
+Epoch [4/15], Step [4800/14999], Loss: 6.6443 time consumed: 11702.16367149353
+Epoch [4/15], Step [4900/14999], Loss: 6.3748 time consumed: 11716.702263593674
+Epoch [4/15], Step [5000/14999], Loss: 2.6042 time consumed: 11731.190146684647
+Epoch [4/15], Step [5100/14999], Loss: 6.9025 time consumed: 11745.668182134628
+Epoch [4/15], Step [5200/14999], Loss: 2.5820 time consumed: 11760.193905591965
+Epoch [4/15], Step [5300/14999], Loss: 7.8319 time consumed: 11774.669646978378
+Epoch [4/15], Step [5400/14999], Loss: 3.8817 time consumed: 11788.846968889236
+Epoch [4/15], Step [5500/14999], Loss: 6.9216 time consumed: 11803.27571797371
+Epoch [4/15], Step [5600/14999], Loss: 5.1386 time consumed: 11817.713487625122
+Epoch [4/15], Step [5700/14999], Loss: 4.2521 time consumed: 11832.529673337936
+Epoch [4/15], Step [5800/14999], Loss: 3.8532 time consumed: 11847.079887390137
+Epoch [4/15], Step [5900/14999], Loss: 7.7751 time consumed: 11861.672595977783
+Epoch [4/15], Step [6000/14999], Loss: 5.7373 time consumed: 11875.692140340805
+Epoch [4/15], Step [6100/14999], Loss: 3.8385 time consumed: 11890.037078619003
+ Accuracy of the network on the test set after Epoch 4 is: 0.004865390853065196
+ Top 2 accuracy on the testing: 0.007460265974699967
+ Top 5 accuracy on the testing: 0.013542004541031463
+ Top 10 accuracy on the testing: 0.020353551735322738
+ Top 50 accuracy on the testing: 0.04622121310411936
+ Top 100 accuracy on the testing: 0.06576386636393124
+ Top 200 accuracy on the testing: 0.0968212779759974
+ Top 300 accuracy on the testing: 0.12098605254622122
+ Top 500 accuracy on the testing: 0.15966590982808954
+ Best Top_1_accuracy on test set till this epoch: 0.004865390853065196 Found in Epoch No: 4
+ Best Top_10_accuracy on test set till this epoch: 0.020353551735322738 Found in Epoch No: 4
+ Best Top_50_accuracy on test set till this epoch: 0.046302302951670454 Found in Epoch No: 3
+ Best Top_100_accuracy on test set till this epoch: 0.06616931560168667 Found in Epoch No: 2
+ Best Top_200_accuracy on test set till this epoch: 0.0968212779759974 Found in Epoch No: 4
+ Best Top_300_accuracy on test set till this epoch: 0.12122932208887448 Found in Epoch No: 2
+ Best Top_500_accuracy on test set till this epoch: 0.15966590982808954 Found in Epoch No: 4
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196]
+14999
+Epoch [5/15], Step [100/14999], Loss: 2.6035 time consumed: 14722.960465431213
+Epoch [5/15], Step [200/14999], Loss: 2.3045 time consumed: 14737.633556127548
+Epoch [5/15], Step [300/14999], Loss: 1.8336 time consumed: 14752.216433286667
+Epoch [5/15], Step [400/14999], Loss: 6.1252 time consumed: 14766.933718204498
+Epoch [5/15], Step [500/14999], Loss: 2.9697 time consumed: 14781.716834306717
+Epoch [5/15], Step [600/14999], Loss: 2.4958 time consumed: 14795.946526050568
+Epoch [5/15], Step [700/14999], Loss: 3.4334 time consumed: 14810.405801296234
+Epoch [5/15], Step [800/14999], Loss: 2.7678 time consumed: 14825.10743689537
+Epoch [5/15], Step [900/14999], Loss: 4.3377 time consumed: 14839.53111076355
+Epoch [5/15], Step [1000/14999], Loss: 2.9392 time consumed: 14854.112418413162
+Epoch [5/15], Step [1100/14999], Loss: 2.5966 time consumed: 14868.637129545212
+Epoch [5/15], Step [1200/14999], Loss: 4.5434 time consumed: 14883.370562553406
+Epoch [5/15], Step [1300/14999], Loss: 3.2492 time consumed: 14897.906717538834
+Epoch [5/15], Step [1400/14999], Loss: 4.2703 time consumed: 14912.201504468918
+Epoch [5/15], Step [1500/14999], Loss: 4.1292 time consumed: 14926.61644077301
+Epoch [5/15], Step [1600/14999], Loss: 2.5602 time consumed: 14941.34511423111
+Epoch [5/15], Step [1700/14999], Loss: 3.0299 time consumed: 14955.95154929161
+Epoch [5/15], Step [1800/14999], Loss: 3.2477 time consumed: 14970.75721859932
+Epoch [5/15], Step [1900/14999], Loss: 1.8787 time consumed: 14985.395451068878
+Epoch [5/15], Step [2000/14999], Loss: 3.3897 time consumed: 14999.991894960403
+Epoch [5/15], Step [2100/14999], Loss: 3.6579 time consumed: 15014.617991924286
+Epoch [5/15], Step [2200/14999], Loss: 2.5581 time consumed: 15029.015112638474
+Epoch [5/15], Step [2300/14999], Loss: 2.3083 time consumed: 15043.688232898712
+Epoch [5/15], Step [2400/14999], Loss: 4.4179 time consumed: 15058.517528533936
+Epoch [5/15], Step [2500/14999], Loss: 4.0839 time consumed: 15073.043801784515
+Epoch [5/15], Step [2600/14999], Loss: 2.9351 time consumed: 15087.582644939423
+Epoch [5/15], Step [2700/14999], Loss: 3.0282 time consumed: 15102.3438539505
+Epoch [5/15], Step [2800/14999], Loss: 5.9150 time consumed: 15116.670514583588
+Epoch [5/15], Step [2900/14999], Loss: 4.5333 time consumed: 15131.40147972107
+Epoch [5/15], Step [3000/14999], Loss: 1.6672 time consumed: 15145.988873243332
+Epoch [5/15], Step [3100/14999], Loss: 4.7782 time consumed: 15160.621504068375
+Epoch [5/15], Step [3200/14999], Loss: 5.6823 time consumed: 15175.215466499329
+Epoch [5/15], Step [3300/14999], Loss: 2.9174 time consumed: 15190.05413389206
+Epoch [5/15], Step [3400/14999], Loss: 4.8093 time consumed: 15204.684230804443
+Epoch [5/15], Step [3500/14999], Loss: 2.8126 time consumed: 15219.223234891891
+Epoch [5/15], Step [3600/14999], Loss: 4.7009 time consumed: 15233.924579381943
+Epoch [5/15], Step [3700/14999], Loss: 2.4609 time consumed: 15248.38524723053
+Epoch [5/15], Step [3800/14999], Loss: 2.8828 time consumed: 15263.181136846542
+Epoch [5/15], Step [3900/14999], Loss: 3.4746 time consumed: 15277.686218738556
+Epoch [5/15], Step [4000/14999], Loss: 2.9797 time consumed: 15292.210157871246
+Epoch [5/15], Step [4100/14999], Loss: 3.5816 time consumed: 15306.965558052063
+Epoch [5/15], Step [4200/14999], Loss: 3.3432 time consumed: 15321.269045352936
+Epoch [5/15], Step [4300/14999], Loss: 2.9659 time consumed: 15335.772033452988
+Epoch [5/15], Step [4400/14999], Loss: 2.5858 time consumed: 15350.594455242157
+Epoch [5/15], Step [4500/14999], Loss: 3.2312 time consumed: 15364.97214436531
+Epoch [5/15], Step [4600/14999], Loss: 5.4379 time consumed: 15379.748518705368
+Epoch [5/15], Step [4700/14999], Loss: 2.8917 time consumed: 15394.224399805069
+Epoch [5/15], Step [4800/14999], Loss: 4.5689 time consumed: 15408.834931850433
+Epoch [5/15], Step [4900/14999], Loss: 3.0739 time consumed: 15423.373815536499
+Epoch [5/15], Step [5000/14999], Loss: 0.8369 time consumed: 15438.057869911194
+Epoch [5/15], Step [5100/14999], Loss: 5.5962 time consumed: 15452.617136001587
+Epoch [5/15], Step [5200/14999], Loss: 1.5575 time consumed: 15467.230599403381
+Epoch [5/15], Step [5300/14999], Loss: 4.8951 time consumed: 15481.727859020233
+Epoch [5/15], Step [5400/14999], Loss: 2.4255 time consumed: 15496.143901109695
+Epoch [5/15], Step [5500/14999], Loss: 3.9409 time consumed: 15510.825477838516
+Epoch [5/15], Step [5600/14999], Loss: 3.6915 time consumed: 15525.365535020828
+Epoch [5/15], Step [5700/14999], Loss: 1.9732 time consumed: 15540.017166137695
+Epoch [5/15], Step [5800/14999], Loss: 3.1054 time consumed: 15554.69389295578
+Epoch [5/15], Step [5900/14999], Loss: 5.4895 time consumed: 15569.700771570206
+Epoch [5/15], Step [6000/14999], Loss: 4.4403 time consumed: 15583.882207393646
+Epoch [5/15], Step [6100/14999], Loss: 2.6614 time consumed: 15598.440958499908
+ Accuracy of the network on the test set after Epoch 5 is: 0.0051897502432695424
+ Top 2 accuracy on the testing: 0.008108984755108661
+ Top 5 accuracy on the testing: 0.014839442101848848
+ Top 10 accuracy on the testing: 0.020353551735322738
+ Top 50 accuracy on the testing: 0.0478430100551411
+ Top 100 accuracy on the testing: 0.06746675316250406
+ Top 200 accuracy on the testing: 0.09892961401232565
+ Top 300 accuracy on the testing: 0.12268893934479404
+ Top 500 accuracy on the testing: 0.16063898799870258
+ Best Top_1_accuracy on test set till this epoch: 0.0051897502432695424 Found in Epoch No: 5
+ Best Top_10_accuracy on test set till this epoch: 0.020353551735322738 Found in Epoch No: 4
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06746675316250406 Found in Epoch No: 5
+ Best Top_200_accuracy on test set till this epoch: 0.09892961401232565 Found in Epoch No: 5
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16063898799870258 Found in Epoch No: 5
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424]
+14999
+Epoch [6/15], Step [100/14999], Loss: 2.4444 time consumed: 18448.961731910706
+Epoch [6/15], Step [200/14999], Loss: 1.7459 time consumed: 18463.837368011475
+Epoch [6/15], Step [300/14999], Loss: 1.7624 time consumed: 18478.609118700027
+Epoch [6/15], Step [400/14999], Loss: 4.7335 time consumed: 18493.208027124405
+Epoch [6/15], Step [500/14999], Loss: 1.8139 time consumed: 18507.982806682587
+Epoch [6/15], Step [600/14999], Loss: 1.6854 time consumed: 18522.435928344727
+Epoch [6/15], Step [700/14999], Loss: 1.8645 time consumed: 18536.90126132965
+Epoch [6/15], Step [800/14999], Loss: 1.6023 time consumed: 18551.658728837967
+Epoch [6/15], Step [900/14999], Loss: 2.9055 time consumed: 18566.19101500511
+Epoch [6/15], Step [1000/14999], Loss: 2.8846 time consumed: 18580.714529037476
+Epoch [6/15], Step [1100/14999], Loss: 0.6176 time consumed: 18595.448608636856
+Epoch [6/15], Step [1200/14999], Loss: 3.5606 time consumed: 18610.196521759033
+Epoch [6/15], Step [1300/14999], Loss: 3.4926 time consumed: 18624.816316366196
+Epoch [6/15], Step [1400/14999], Loss: 2.5134 time consumed: 18639.466686725616
+Epoch [6/15], Step [1500/14999], Loss: 3.6274 time consumed: 18653.971176624298
+Epoch [6/15], Step [1600/14999], Loss: 1.3693 time consumed: 18668.69412612915
+Epoch [6/15], Step [1700/14999], Loss: 2.9048 time consumed: 18683.106476545334
+Epoch [6/15], Step [1800/14999], Loss: 2.0667 time consumed: 18698.0031208992
+Epoch [6/15], Step [1900/14999], Loss: 2.0329 time consumed: 18712.744828939438
+Epoch [6/15], Step [2000/14999], Loss: 2.2175 time consumed: 18727.309531211853
+Epoch [6/15], Step [2100/14999], Loss: 1.8503 time consumed: 18741.99104118347
+Epoch [6/15], Step [2200/14999], Loss: 2.5321 time consumed: 18756.660019636154
+Epoch [6/15], Step [2300/14999], Loss: 2.0264 time consumed: 18771.47563791275
+Epoch [6/15], Step [2400/14999], Loss: 3.3081 time consumed: 18786.427510738373
+Epoch [6/15], Step [2500/14999], Loss: 4.1091 time consumed: 18801.123815774918
+Epoch [6/15], Step [2600/14999], Loss: 2.4794 time consumed: 18815.63688993454
+Epoch [6/15], Step [2700/14999], Loss: 1.9138 time consumed: 18830.33429002762
+Epoch [6/15], Step [2800/14999], Loss: 3.8843 time consumed: 18844.650846004486
+Epoch [6/15], Step [2900/14999], Loss: 6.1198 time consumed: 18859.6105158329
+Epoch [6/15], Step [3000/14999], Loss: 2.0557 time consumed: 18874.309807777405
+Epoch [6/15], Step [3100/14999], Loss: 3.9875 time consumed: 18888.97696876526
+Epoch [6/15], Step [3200/14999], Loss: 4.3880 time consumed: 18903.533095121384
+Epoch [6/15], Step [3300/14999], Loss: 2.9798 time consumed: 18918.480010986328
+Epoch [6/15], Step [3400/14999], Loss: 4.8647 time consumed: 18933.090332746506
+Epoch [6/15], Step [3500/14999], Loss: 3.5718 time consumed: 18947.80052947998
+Epoch [6/15], Step [3600/14999], Loss: 3.9808 time consumed: 18962.64181447029
+Epoch [6/15], Step [3700/14999], Loss: 1.7910 time consumed: 18977.339415311813
+Epoch [6/15], Step [3800/14999], Loss: 2.6287 time consumed: 18992.283116817474
+Epoch [6/15], Step [3900/14999], Loss: 2.8024 time consumed: 19007.055515527725
+Epoch [6/15], Step [4000/14999], Loss: 3.5350 time consumed: 19021.768518209457
+Epoch [6/15], Step [4100/14999], Loss: 4.5253 time consumed: 19036.5722720623
+Epoch [6/15], Step [4200/14999], Loss: 2.6727 time consumed: 19051.10070157051
+Epoch [6/15], Step [4300/14999], Loss: 2.9577 time consumed: 19065.784343719482
+Epoch [6/15], Step [4400/14999], Loss: 2.3795 time consumed: 19080.78493475914
+Epoch [6/15], Step [4500/14999], Loss: 2.7067 time consumed: 19094.978461503983
+Epoch [6/15], Step [4600/14999], Loss: 3.3025 time consumed: 19109.731389045715
+Epoch [6/15], Step [4700/14999], Loss: 3.3427 time consumed: 19124.291268348694
+Epoch [6/15], Step [4800/14999], Loss: 4.4476 time consumed: 19138.95282649994
+Epoch [6/15], Step [4900/14999], Loss: 2.8873 time consumed: 19153.680230379105
+Epoch [6/15], Step [5000/14999], Loss: 1.2070 time consumed: 19168.467363357544
+Epoch [6/15], Step [5100/14999], Loss: 3.3018 time consumed: 19183.103304624557
+Epoch [6/15], Step [5200/14999], Loss: 0.8019 time consumed: 19197.80629134178
+Epoch [6/15], Step [5300/14999], Loss: 5.0199 time consumed: 19212.368073940277
+Epoch [6/15], Step [5400/14999], Loss: 2.5528 time consumed: 19226.718852996826
+Epoch [6/15], Step [5500/14999], Loss: 3.1481 time consumed: 19241.29242873192
+Epoch [6/15], Step [5600/14999], Loss: 3.5940 time consumed: 19255.938703536987
+Epoch [6/15], Step [5700/14999], Loss: 2.2325 time consumed: 19270.80384206772
+Epoch [6/15], Step [5800/14999], Loss: 2.6681 time consumed: 19285.371544599533
+Epoch [6/15], Step [5900/14999], Loss: 5.5222 time consumed: 19300.089456796646
+Epoch [6/15], Step [6000/14999], Loss: 4.1056 time consumed: 19314.434213638306
+Epoch [6/15], Step [6100/14999], Loss: 2.2121 time consumed: 19328.94468975067
+ Accuracy of the network on the test set after Epoch 6 is: 0.005270840090820629
+ Top 2 accuracy on the testing: 0.008514433992864093
+ Top 5 accuracy on the testing: 0.014271813168991242
+ Top 10 accuracy on the testing: 0.020840090820629258
+ Top 50 accuracy on the testing: 0.04768083036003892
+ Top 100 accuracy on the testing: 0.06811547194291274
+ Top 200 accuracy on the testing: 0.09892961401232565
+ Top 300 accuracy on the testing: 0.12252675964969185
+ Top 500 accuracy on the testing: 0.16169315601686668
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.020840090820629258 Found in Epoch No: 6
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06811547194291274 Found in Epoch No: 6
+ Best Top_200_accuracy on test set till this epoch: 0.09892961401232565 Found in Epoch No: 5
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16169315601686668 Found in Epoch No: 6
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629]
+14999
+Epoch [7/15], Step [100/14999], Loss: 1.9440 time consumed: 22176.731241464615
+Epoch [7/15], Step [200/14999], Loss: 2.0128 time consumed: 22191.139497995377
+Epoch [7/15], Step [300/14999], Loss: 1.7620 time consumed: 22205.57808470726
+Epoch [7/15], Step [400/14999], Loss: 3.6567 time consumed: 22219.796825170517
+Epoch [7/15], Step [500/14999], Loss: 2.1689 time consumed: 22234.472342014313
+Epoch [7/15], Step [600/14999], Loss: 1.4542 time consumed: 22248.621423482895
+Epoch [7/15], Step [700/14999], Loss: 2.3294 time consumed: 22262.47816491127
+Epoch [7/15], Step [800/14999], Loss: 0.9628 time consumed: 22276.743695497513
+Epoch [7/15], Step [900/14999], Loss: 1.6981 time consumed: 22290.89025950432
+Epoch [7/15], Step [1000/14999], Loss: 1.7790 time consumed: 22304.988895893097
+Epoch [7/15], Step [1100/14999], Loss: 1.0580 time consumed: 22319.18116927147
+Epoch [7/15], Step [1200/14999], Loss: 3.3315 time consumed: 22333.55609345436
+Epoch [7/15], Step [1300/14999], Loss: 3.0666 time consumed: 22347.871073961258
+Epoch [7/15], Step [1400/14999], Loss: 2.1625 time consumed: 22362.016825914383
+Epoch [7/15], Step [1500/14999], Loss: 2.1170 time consumed: 22376.357848644257
+Epoch [7/15], Step [1600/14999], Loss: 2.3138 time consumed: 22390.895253896713
+Epoch [7/15], Step [1700/14999], Loss: 2.7827 time consumed: 22405.12149977684
+Epoch [7/15], Step [1800/14999], Loss: 1.3277 time consumed: 22419.548862218857
+Epoch [7/15], Step [1900/14999], Loss: 2.0000 time consumed: 22433.7183945179
+Epoch [7/15], Step [2000/14999], Loss: 3.0059 time consumed: 22447.943043470383
+Epoch [7/15], Step [2100/14999], Loss: 2.2099 time consumed: 22462.381173610687
+Epoch [7/15], Step [2200/14999], Loss: 3.4389 time consumed: 22476.51727771759
+Epoch [7/15], Step [2300/14999], Loss: 1.6731 time consumed: 22490.977571725845
+Epoch [7/15], Step [2400/14999], Loss: 4.0685 time consumed: 22505.538341760635
+Epoch [7/15], Step [2500/14999], Loss: 3.9008 time consumed: 22519.854766607285
+Epoch [7/15], Step [2600/14999], Loss: 3.8441 time consumed: 22534.269194364548
+Epoch [7/15], Step [2700/14999], Loss: 1.7468 time consumed: 22548.564563035965
+Epoch [7/15], Step [2800/14999], Loss: 3.8101 time consumed: 22562.605499505997
+Epoch [7/15], Step [2900/14999], Loss: 4.0266 time consumed: 22577.249470472336
+Epoch [7/15], Step [3000/14999], Loss: 0.9657 time consumed: 22591.79647231102
+Epoch [7/15], Step [3100/14999], Loss: 2.6272 time consumed: 22606.33557534218
+Epoch [7/15], Step [3200/14999], Loss: 4.8817 time consumed: 22620.67704296112
+Epoch [7/15], Step [3300/14999], Loss: 2.0812 time consumed: 22635.202684402466
+Epoch [7/15], Step [3400/14999], Loss: 4.2846 time consumed: 22649.508786678314
+Epoch [7/15], Step [3500/14999], Loss: 2.5494 time consumed: 22663.818715572357
+Epoch [7/15], Step [3600/14999], Loss: 3.4205 time consumed: 22678.23101758957
+Epoch [7/15], Step [3700/14999], Loss: 1.6935 time consumed: 22692.382163524628
+Epoch [7/15], Step [3800/14999], Loss: 2.4041 time consumed: 22706.932889461517
+Epoch [7/15], Step [3900/14999], Loss: 2.9420 time consumed: 22721.235065460205
+Epoch [7/15], Step [4000/14999], Loss: 3.3123 time consumed: 22735.662063121796
+Epoch [7/15], Step [4100/14999], Loss: 4.6879 time consumed: 22750.20755815506
+Epoch [7/15], Step [4200/14999], Loss: 2.3596 time consumed: 22764.277872800827
+Epoch [7/15], Step [4300/14999], Loss: 3.6700 time consumed: 22778.68610048294
+Epoch [7/15], Step [4400/14999], Loss: 2.0003 time consumed: 22793.166345119476
+Epoch [7/15], Step [4500/14999], Loss: 1.6025 time consumed: 22807.13879942894
+Epoch [7/15], Step [4600/14999], Loss: 5.4471 time consumed: 22821.659393548965
+Epoch [7/15], Step [4700/14999], Loss: 2.7178 time consumed: 22835.903965473175
+Epoch [7/15], Step [4800/14999], Loss: 4.1417 time consumed: 22850.07807970047
+Epoch [7/15], Step [4900/14999], Loss: 2.4281 time consumed: 22864.43139743805
+Epoch [7/15], Step [5000/14999], Loss: 0.9371 time consumed: 22878.715636491776
+Epoch [7/15], Step [5100/14999], Loss: 5.2354 time consumed: 22892.988696098328
+Epoch [7/15], Step [5200/14999], Loss: 0.6312 time consumed: 22907.274985313416
+Epoch [7/15], Step [5300/14999], Loss: 3.4667 time consumed: 22921.513295173645
+Epoch [7/15], Step [5400/14999], Loss: 2.5614 time consumed: 22935.528742313385
+Epoch [7/15], Step [5500/14999], Loss: 2.3881 time consumed: 22949.78172302246
+Epoch [7/15], Step [5600/14999], Loss: 3.9729 time consumed: 22963.97595834732
+Epoch [7/15], Step [5700/14999], Loss: 2.4370 time consumed: 22978.452142238617
+Epoch [7/15], Step [5800/14999], Loss: 2.7398 time consumed: 22992.751398801804
+Epoch [7/15], Step [5900/14999], Loss: 3.9309 time consumed: 23007.29152727127
+Epoch [7/15], Step [6000/14999], Loss: 5.1271 time consumed: 23021.30517601967
+Epoch [7/15], Step [6100/14999], Loss: 1.5358 time consumed: 23035.55870270729
+ Accuracy of the network on the test set after Epoch 7 is: 0.005108660395718456
+ Top 2 accuracy on the testing: 0.008676613687966267
+ Top 5 accuracy on the testing: 0.014677262406746674
+ Top 10 accuracy on the testing: 0.02075900097307817
+ Top 50 accuracy on the testing: 0.0478430100551411
+ Top 100 accuracy on the testing: 0.06827765163801493
+ Top 200 accuracy on the testing: 0.09860525462212132
+ Top 300 accuracy on the testing: 0.12195913071683426
+ Top 500 accuracy on the testing: 0.161044437236458
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.020840090820629258 Found in Epoch No: 6
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06827765163801493 Found in Epoch No: 7
+ Best Top_200_accuracy on test set till this epoch: 0.09892961401232565 Found in Epoch No: 5
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16169315601686668 Found in Epoch No: 6
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456]
+14999
+Epoch [8/15], Step [100/14999], Loss: 1.5888 time consumed: 26038.287216186523
+Epoch [8/15], Step [200/14999], Loss: 2.2372 time consumed: 26052.695036649704
+Epoch [8/15], Step [300/14999], Loss: 1.1249 time consumed: 26067.072791814804
+Epoch [8/15], Step [400/14999], Loss: 4.0864 time consumed: 26081.333250284195
+Epoch [8/15], Step [500/14999], Loss: 1.3702 time consumed: 26095.866061925888
+Epoch [8/15], Step [600/14999], Loss: 0.8271 time consumed: 26109.87338757515
+Epoch [8/15], Step [700/14999], Loss: 2.5232 time consumed: 26123.94637107849
+Epoch [8/15], Step [800/14999], Loss: 1.3213 time consumed: 26138.26029920578
+Epoch [8/15], Step [900/14999], Loss: 2.3449 time consumed: 26152.396618127823
+Epoch [8/15], Step [1000/14999], Loss: 0.3711 time consumed: 26166.642797231674
+Epoch [8/15], Step [1100/14999], Loss: 0.6704 time consumed: 26180.942061185837
+Epoch [8/15], Step [1200/14999], Loss: 2.5325 time consumed: 26195.403962373734
+Epoch [8/15], Step [1300/14999], Loss: 3.2352 time consumed: 26209.68440437317
+Epoch [8/15], Step [1400/14999], Loss: 3.2195 time consumed: 26223.94852256775
+Epoch [8/15], Step [1500/14999], Loss: 1.8543 time consumed: 26238.17162322998
+Epoch [8/15], Step [1600/14999], Loss: 1.2356 time consumed: 26252.561934947968
+Epoch [8/15], Step [1700/14999], Loss: 1.9200 time consumed: 26266.625811100006
+Epoch [8/15], Step [1800/14999], Loss: 1.3759 time consumed: 26281.205846071243
+Epoch [8/15], Step [1900/14999], Loss: 1.4163 time consumed: 26295.447813749313
+Epoch [8/15], Step [2000/14999], Loss: 1.6306 time consumed: 26309.905577898026
+Epoch [8/15], Step [2100/14999], Loss: 1.3367 time consumed: 26324.21079158783
+Epoch [8/15], Step [2200/14999], Loss: 1.8567 time consumed: 26338.386758089066
+Epoch [8/15], Step [2300/14999], Loss: 1.8277 time consumed: 26352.61992788315
+Epoch [8/15], Step [2400/14999], Loss: 3.3680 time consumed: 26367.04959011078
+Epoch [8/15], Step [2500/14999], Loss: 3.8195 time consumed: 26381.311883211136
+Epoch [8/15], Step [2600/14999], Loss: 2.3841 time consumed: 26395.371631383896
+Epoch [8/15], Step [2700/14999], Loss: 1.5513 time consumed: 26409.50615644455
+Epoch [8/15], Step [2800/14999], Loss: 2.4330 time consumed: 26423.4150891304
+Epoch [8/15], Step [2900/14999], Loss: 4.4968 time consumed: 26437.887084960938
+Epoch [8/15], Step [3000/14999], Loss: 1.0870 time consumed: 26452.26678109169
+Epoch [8/15], Step [3100/14999], Loss: 4.4062 time consumed: 26466.558608531952
+Epoch [8/15], Step [3200/14999], Loss: 3.9760 time consumed: 26480.632364988327
+Epoch [8/15], Step [3300/14999], Loss: 2.6755 time consumed: 26495.09139752388
+Epoch [8/15], Step [3400/14999], Loss: 4.1270 time consumed: 26509.49659705162
+Epoch [8/15], Step [3500/14999], Loss: 1.8338 time consumed: 26523.664786100388
+Epoch [8/15], Step [3600/14999], Loss: 2.2998 time consumed: 26538.010066509247
+Epoch [8/15], Step [3700/14999], Loss: 1.3914 time consumed: 26551.965909957886
+Epoch [8/15], Step [3800/14999], Loss: 2.1160 time consumed: 26566.537488222122
+Epoch [8/15], Step [3900/14999], Loss: 2.3981 time consumed: 26580.77122616768
+Epoch [8/15], Step [4000/14999], Loss: 2.5934 time consumed: 26594.804620742798
+Epoch [8/15], Step [4100/14999], Loss: 4.4064 time consumed: 26608.984679222107
+Epoch [8/15], Step [4200/14999], Loss: 2.5259 time consumed: 26622.961541891098
+Epoch [8/15], Step [4300/14999], Loss: 3.1606 time consumed: 26637.23993563652
+Epoch [8/15], Step [4400/14999], Loss: 2.8256 time consumed: 26651.780915498734
+Epoch [8/15], Step [4500/14999], Loss: 2.0778 time consumed: 26665.77483201027
+Epoch [8/15], Step [4600/14999], Loss: 3.4565 time consumed: 26680.186745405197
+Epoch [8/15], Step [4700/14999], Loss: 2.2605 time consumed: 26694.442576646805
+Epoch [8/15], Step [4800/14999], Loss: 6.0724 time consumed: 26708.6036195755
+Epoch [8/15], Step [4900/14999], Loss: 2.6284 time consumed: 26722.945366621017
+Epoch [8/15], Step [5000/14999], Loss: 1.1636 time consumed: 26737.253269433975
+Epoch [8/15], Step [5100/14999], Loss: 4.2396 time consumed: 26751.5463244915
+Epoch [8/15], Step [5200/14999], Loss: 0.8038 time consumed: 26765.871574640274
+Epoch [8/15], Step [5300/14999], Loss: 4.0405 time consumed: 26780.047305822372
+Epoch [8/15], Step [5400/14999], Loss: 1.5064 time consumed: 26793.998053073883
+Epoch [8/15], Step [5500/14999], Loss: 2.3207 time consumed: 26808.27315211296
+Epoch [8/15], Step [5600/14999], Loss: 2.9073 time consumed: 26822.40623307228
+Epoch [8/15], Step [5700/14999], Loss: 2.2636 time consumed: 26836.893394470215
+Epoch [8/15], Step [5800/14999], Loss: 2.9532 time consumed: 26851.014435768127
+Epoch [8/15], Step [5900/14999], Loss: 4.7274 time consumed: 26865.344683885574
+Epoch [8/15], Step [6000/14999], Loss: 3.1081 time consumed: 26879.068995952606
+Epoch [8/15], Step [6100/14999], Loss: 1.0874 time consumed: 26893.0923640728
+ Accuracy of the network on the test set after Epoch 8 is: 0.0047843010055141095
+ Top 2 accuracy on the testing: 0.008352254297761921
+ Top 5 accuracy on the testing: 0.014271813168991242
+ Top 10 accuracy on the testing: 0.020596821277975998
+ Top 50 accuracy on the testing: 0.04759974051248784
+ Top 100 accuracy on the testing: 0.0690074602659747
+ Top 200 accuracy on the testing: 0.09917288355497891
+ Top 300 accuracy on the testing: 0.12252675964969185
+ Top 500 accuracy on the testing: 0.1609633473889069
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.020840090820629258 Found in Epoch No: 6
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.0690074602659747 Found in Epoch No: 8
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16169315601686668 Found in Epoch No: 6
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095]
+14999
+Epoch [9/15], Step [100/14999], Loss: 2.0749 time consumed: 29880.004031419754
+Epoch [9/15], Step [200/14999], Loss: 2.7486 time consumed: 29894.547456026077
+Epoch [9/15], Step [300/14999], Loss: 1.1036 time consumed: 29909.210000514984
+Epoch [9/15], Step [400/14999], Loss: 3.8205 time consumed: 29923.4636156559
+Epoch [9/15], Step [500/14999], Loss: 1.8605 time consumed: 29938.250413179398
+Epoch [9/15], Step [600/14999], Loss: 0.6956 time consumed: 29952.413826465607
+Epoch [9/15], Step [700/14999], Loss: 1.8018 time consumed: 29966.768734931946
+Epoch [9/15], Step [800/14999], Loss: 1.0592 time consumed: 29981.20332312584
+Epoch [9/15], Step [900/14999], Loss: 1.4399 time consumed: 29995.690177679062
+Epoch [9/15], Step [1000/14999], Loss: 0.6957 time consumed: 30010.003774642944
+Epoch [9/15], Step [1100/14999], Loss: 1.4011 time consumed: 30024.551144123077
+Epoch [9/15], Step [1200/14999], Loss: 2.2338 time consumed: 30039.0881857872
+Epoch [9/15], Step [1300/14999], Loss: 2.1114 time consumed: 30053.45645236969
+Epoch [9/15], Step [1400/14999], Loss: 1.7215 time consumed: 30067.890693426132
+Epoch [9/15], Step [1500/14999], Loss: 1.4271 time consumed: 30082.328489542007
+Epoch [9/15], Step [1600/14999], Loss: 1.3723 time consumed: 30096.969519138336
+Epoch [9/15], Step [1700/14999], Loss: 2.4980 time consumed: 30111.3401927948
+Epoch [9/15], Step [1800/14999], Loss: 1.2431 time consumed: 30126.150678634644
+Epoch [9/15], Step [1900/14999], Loss: 1.3278 time consumed: 30140.579495191574
+Epoch [9/15], Step [2000/14999], Loss: 1.2826 time consumed: 30155.039644002914
+Epoch [9/15], Step [2100/14999], Loss: 1.7256 time consumed: 30169.46569919586
+Epoch [9/15], Step [2200/14999], Loss: 1.8461 time consumed: 30183.933220863342
+Epoch [9/15], Step [2300/14999], Loss: 1.1583 time consumed: 30198.594365358353
+Epoch [9/15], Step [2400/14999], Loss: 1.9009 time consumed: 30213.246562242508
+Epoch [9/15], Step [2500/14999], Loss: 2.8585 time consumed: 30227.764488697052
+Epoch [9/15], Step [2600/14999], Loss: 2.3212 time consumed: 30242.142198324203
+Epoch [9/15], Step [2700/14999], Loss: 1.5712 time consumed: 30256.731974601746
+Epoch [9/15], Step [2800/14999], Loss: 3.3872 time consumed: 30270.87615942955
+Epoch [9/15], Step [2900/14999], Loss: 4.0149 time consumed: 30285.559770822525
+Epoch [9/15], Step [3000/14999], Loss: 1.5364 time consumed: 30300.28226709366
+Epoch [9/15], Step [3100/14999], Loss: 2.3331 time consumed: 30314.708954811096
+Epoch [9/15], Step [3200/14999], Loss: 3.6303 time consumed: 30329.01490879059
+Epoch [9/15], Step [3300/14999], Loss: 0.9153 time consumed: 30343.65697002411
+Epoch [9/15], Step [3400/14999], Loss: 3.0991 time consumed: 30358.211238861084
+Epoch [9/15], Step [3500/14999], Loss: 1.4924 time consumed: 30372.70673441887
+Epoch [9/15], Step [3600/14999], Loss: 2.3617 time consumed: 30387.17771911621
+Epoch [9/15], Step [3700/14999], Loss: 1.2489 time consumed: 30401.478354930878
+Epoch [9/15], Step [3800/14999], Loss: 4.0189 time consumed: 30416.292541980743
+Epoch [9/15], Step [3900/14999], Loss: 2.0529 time consumed: 30430.629819393158
+Epoch [9/15], Step [4000/14999], Loss: 1.8608 time consumed: 30444.972009420395
+Epoch [9/15], Step [4100/14999], Loss: 2.7188 time consumed: 30459.272346735
+Epoch [9/15], Step [4200/14999], Loss: 1.3763 time consumed: 30473.537120580673
+Epoch [9/15], Step [4300/14999], Loss: 1.9614 time consumed: 30487.950379133224
+Epoch [9/15], Step [4400/14999], Loss: 1.8388 time consumed: 30502.57015991211
+Epoch [9/15], Step [4500/14999], Loss: 1.2507 time consumed: 30516.638863563538
+Epoch [9/15], Step [4600/14999], Loss: 3.0121 time consumed: 30531.24089193344
+Epoch [9/15], Step [4700/14999], Loss: 2.0411 time consumed: 30545.427639484406
+Epoch [9/15], Step [4800/14999], Loss: 2.5951 time consumed: 30559.90495157242
+Epoch [9/15], Step [4900/14999], Loss: 1.7361 time consumed: 30574.48404121399
+Epoch [9/15], Step [5000/14999], Loss: 0.8326 time consumed: 30588.790527820587
+Epoch [9/15], Step [5100/14999], Loss: 1.8160 time consumed: 30603.1378865242
+Epoch [9/15], Step [5200/14999], Loss: 0.5942 time consumed: 30617.65167737007
+Epoch [9/15], Step [5300/14999], Loss: 3.3363 time consumed: 30631.896461963654
+Epoch [9/15], Step [5400/14999], Loss: 2.0295 time consumed: 30646.032454013824
+Epoch [9/15], Step [5500/14999], Loss: 1.5466 time consumed: 30660.358882665634
+Epoch [9/15], Step [5600/14999], Loss: 2.8760 time consumed: 30674.718022584915
+Epoch [9/15], Step [5700/14999], Loss: 1.5814 time consumed: 30689.227355480194
+Epoch [9/15], Step [5800/14999], Loss: 2.1872 time consumed: 30703.081264972687
+Epoch [9/15], Step [5900/14999], Loss: 3.0774 time consumed: 30717.606773614883
+Epoch [9/15], Step [6000/14999], Loss: 3.3818 time consumed: 30731.770736932755
+Epoch [9/15], Step [6100/14999], Loss: 2.7712 time consumed: 30746.215687274933
+ Accuracy of the network on the test set after Epoch 9 is: 0.004865390853065196
+ Top 2 accuracy on the testing: 0.008433344145313007
+ Top 5 accuracy on the testing: 0.014352903016542328
+ Top 10 accuracy on the testing: 0.021164450210833605
+ Top 50 accuracy on the testing: 0.04703211157963023
+ Top 100 accuracy on the testing: 0.06908855011352578
+ Top 200 accuracy on the testing: 0.09901070385987674
+ Top 300 accuracy on the testing: 0.12244566980214078
+ Top 500 accuracy on the testing: 0.16128770677911125
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06908855011352578 Found in Epoch No: 9
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16169315601686668 Found in Epoch No: 6
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196]
+14999
+Epoch [10/15], Step [100/14999], Loss: 1.6403 time consumed: 33715.954575538635
+Epoch [10/15], Step [200/14999], Loss: 1.1851 time consumed: 33730.45902466774
+Epoch [10/15], Step [300/14999], Loss: 1.0792 time consumed: 33745.037703990936
+Epoch [10/15], Step [400/14999], Loss: 3.9303 time consumed: 33759.22890663147
+Epoch [10/15], Step [500/14999], Loss: 1.3795 time consumed: 33773.95738649368
+Epoch [10/15], Step [600/14999], Loss: 0.6196 time consumed: 33788.276956796646
+Epoch [10/15], Step [700/14999], Loss: 1.0586 time consumed: 33802.58442425728
+Epoch [10/15], Step [800/14999], Loss: 0.9393 time consumed: 33817.07115960121
+Epoch [10/15], Step [900/14999], Loss: 1.9209 time consumed: 33831.33107638359
+Epoch [10/15], Step [1000/14999], Loss: 1.5247 time consumed: 33845.59384179115
+Epoch [10/15], Step [1100/14999], Loss: 1.2010 time consumed: 33859.83641600609
+Epoch [10/15], Step [1200/14999], Loss: 2.2241 time consumed: 33874.29342341423
+Epoch [10/15], Step [1300/14999], Loss: 2.3255 time consumed: 33888.77030587196
+Epoch [10/15], Step [1400/14999], Loss: 1.9531 time consumed: 33903.07448887825
+Epoch [10/15], Step [1500/14999], Loss: 1.7900 time consumed: 33917.50835895538
+Epoch [10/15], Step [1600/14999], Loss: 1.3853 time consumed: 33931.97148823738
+Epoch [10/15], Step [1700/14999], Loss: 3.4487 time consumed: 33946.24165868759
+Epoch [10/15], Step [1800/14999], Loss: 1.1325 time consumed: 33960.75645136833
+Epoch [10/15], Step [1900/14999], Loss: 0.5861 time consumed: 33975.22797036171
+Epoch [10/15], Step [2000/14999], Loss: 1.2453 time consumed: 33989.62250638008
+Epoch [10/15], Step [2100/14999], Loss: 1.6809 time consumed: 34004.11141324043
+Epoch [10/15], Step [2200/14999], Loss: 0.8659 time consumed: 34018.45646882057
+Epoch [10/15], Step [2300/14999], Loss: 1.1136 time consumed: 34032.981835365295
+Epoch [10/15], Step [2400/14999], Loss: 1.7838 time consumed: 34047.7506377697
+Epoch [10/15], Step [2500/14999], Loss: 2.8725 time consumed: 34062.18396067619
+Epoch [10/15], Step [2600/14999], Loss: 2.5341 time consumed: 34076.544791698456
+Epoch [10/15], Step [2700/14999], Loss: 1.6189 time consumed: 34091.08786034584
+Epoch [10/15], Step [2800/14999], Loss: 3.4029 time consumed: 34105.19664931297
+Epoch [10/15], Step [2900/14999], Loss: 4.3376 time consumed: 34119.758296489716
+Epoch [10/15], Step [3000/14999], Loss: 1.4988 time consumed: 34134.37169289589
+Epoch [10/15], Step [3100/14999], Loss: 2.1488 time consumed: 34148.92399263382
+Epoch [10/15], Step [3200/14999], Loss: 3.6956 time consumed: 34163.21084904671
+Epoch [10/15], Step [3300/14999], Loss: 1.4973 time consumed: 34177.8372900486
+Epoch [10/15], Step [3400/14999], Loss: 2.9883 time consumed: 34192.41038322449
+Epoch [10/15], Step [3500/14999], Loss: 1.8901 time consumed: 34206.84512972832
+Epoch [10/15], Step [3600/14999], Loss: 2.5139 time consumed: 34221.40804576874
+Epoch [10/15], Step [3700/14999], Loss: 1.1410 time consumed: 34235.877522706985
+Epoch [10/15], Step [3800/14999], Loss: 1.6936 time consumed: 34250.64498734474
+Epoch [10/15], Step [3900/14999], Loss: 1.9789 time consumed: 34265.266704559326
+Epoch [10/15], Step [4000/14999], Loss: 1.7844 time consumed: 34279.646440029144
+Epoch [10/15], Step [4100/14999], Loss: 3.1289 time consumed: 34294.11473965645
+Epoch [10/15], Step [4200/14999], Loss: 1.7600 time consumed: 34308.40217709541
+Epoch [10/15], Step [4300/14999], Loss: 2.1600 time consumed: 34322.865594387054
+Epoch [10/15], Step [4400/14999], Loss: 2.4859 time consumed: 34337.6176943779
+Epoch [10/15], Step [4500/14999], Loss: 2.3761 time consumed: 34351.64402675629
+Epoch [10/15], Step [4600/14999], Loss: 1.9174 time consumed: 34366.22505044937
+Epoch [10/15], Step [4700/14999], Loss: 1.6756 time consumed: 34380.53783988953
+Epoch [10/15], Step [4800/14999], Loss: 3.9650 time consumed: 34395.09562540054
+Epoch [10/15], Step [4900/14999], Loss: 1.7024 time consumed: 34409.46524953842
+Epoch [10/15], Step [5000/14999], Loss: 1.1860 time consumed: 34423.4883377552
+Epoch [10/15], Step [5100/14999], Loss: 2.8490 time consumed: 34437.81244754791
+Epoch [10/15], Step [5200/14999], Loss: 0.8378 time consumed: 34452.27077078819
+Epoch [10/15], Step [5300/14999], Loss: 2.8846 time consumed: 34466.740849494934
+Epoch [10/15], Step [5400/14999], Loss: 1.4911 time consumed: 34480.89523124695
+Epoch [10/15], Step [5500/14999], Loss: 0.7751 time consumed: 34495.41054749489
+Epoch [10/15], Step [5600/14999], Loss: 3.4422 time consumed: 34509.633021354675
+Epoch [10/15], Step [5700/14999], Loss: 1.3020 time consumed: 34524.09636235237
+Epoch [10/15], Step [5800/14999], Loss: 2.1775 time consumed: 34538.34303832054
+Epoch [10/15], Step [5900/14999], Loss: 2.3043 time consumed: 34552.900780677795
+Epoch [10/15], Step [6000/14999], Loss: 2.4389 time consumed: 34567.03767538071
+Epoch [10/15], Step [6100/14999], Loss: 0.9601 time consumed: 34581.471927165985
+ Accuracy of the network on the test set after Epoch 10 is: 0.004703211157963023
+ Top 2 accuracy on the testing: 0.008433344145313007
+ Top 5 accuracy on the testing: 0.014109633473889069
+ Top 10 accuracy on the testing: 0.02100227051573143
+ Top 50 accuracy on the testing: 0.04759974051248784
+ Top 100 accuracy on the testing: 0.06892637041842362
+ Top 200 accuracy on the testing: 0.09901070385987674
+ Top 300 accuracy on the testing: 0.1222834901070386
+ Top 500 accuracy on the testing: 0.16153097632176452
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06908855011352578 Found in Epoch No: 9
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16169315601686668 Found in Epoch No: 6
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023]
+14999
+Epoch [11/15], Step [100/14999], Loss: 1.3457 time consumed: 37595.386677503586
+Epoch [11/15], Step [200/14999], Loss: 2.7687 time consumed: 37609.83183503151
+Epoch [11/15], Step [300/14999], Loss: 0.9399 time consumed: 37624.403316020966
+Epoch [11/15], Step [400/14999], Loss: 4.8489 time consumed: 37638.746035814285
+Epoch [11/15], Step [500/14999], Loss: 1.6448 time consumed: 37653.36925935745
+Epoch [11/15], Step [600/14999], Loss: 0.5357 time consumed: 37667.55272912979
+Epoch [11/15], Step [700/14999], Loss: 1.4843 time consumed: 37681.798542261124
+Epoch [11/15], Step [800/14999], Loss: 0.6747 time consumed: 37696.25081682205
+Epoch [11/15], Step [900/14999], Loss: 2.0343 time consumed: 37710.609214782715
+Epoch [11/15], Step [1000/14999], Loss: 1.6658 time consumed: 37724.87658381462
+Epoch [11/15], Step [1100/14999], Loss: 0.6746 time consumed: 37739.221351861954
+Epoch [11/15], Step [1200/14999], Loss: 2.2068 time consumed: 37753.77823972702
+Epoch [11/15], Step [1300/14999], Loss: 2.4558 time consumed: 37768.27453374863
+Epoch [11/15], Step [1400/14999], Loss: 1.2082 time consumed: 37782.471868276596
+Epoch [11/15], Step [1500/14999], Loss: 0.7155 time consumed: 37796.69391322136
+Epoch [11/15], Step [1600/14999], Loss: 1.8813 time consumed: 37811.10340428352
+Epoch [11/15], Step [1700/14999], Loss: 2.2225 time consumed: 37825.31482958794
+Epoch [11/15], Step [1800/14999], Loss: 1.5349 time consumed: 37839.88737130165
+Epoch [11/15], Step [1900/14999], Loss: 0.9252 time consumed: 37854.26923036575
+Epoch [11/15], Step [2000/14999], Loss: 0.8944 time consumed: 37868.611077070236
+Epoch [11/15], Step [2100/14999], Loss: 2.0951 time consumed: 37882.94223570824
+Epoch [11/15], Step [2200/14999], Loss: 1.5526 time consumed: 37897.28260803223
+Epoch [11/15], Step [2300/14999], Loss: 1.1452 time consumed: 37911.718719005585
+Epoch [11/15], Step [2400/14999], Loss: 3.0862 time consumed: 37926.54785203934
+Epoch [11/15], Step [2500/14999], Loss: 2.4078 time consumed: 37941.01483297348
+Epoch [11/15], Step [2600/14999], Loss: 1.7600 time consumed: 37955.27491927147
+Epoch [11/15], Step [2700/14999], Loss: 1.2274 time consumed: 37969.63229703903
+Epoch [11/15], Step [2800/14999], Loss: 2.8128 time consumed: 37983.74645447731
+Epoch [11/15], Step [2900/14999], Loss: 3.0643 time consumed: 37998.29222559929
+Epoch [11/15], Step [3000/14999], Loss: 1.1693 time consumed: 38012.67150139809
+Epoch [11/15], Step [3100/14999], Loss: 3.2375 time consumed: 38027.08082604408
+Epoch [11/15], Step [3200/14999], Loss: 4.1383 time consumed: 38041.30351614952
+Epoch [11/15], Step [3300/14999], Loss: 1.2448 time consumed: 38056.14364504814
+Epoch [11/15], Step [3400/14999], Loss: 4.3142 time consumed: 38070.541192770004
+Epoch [11/15], Step [3500/14999], Loss: 2.0808 time consumed: 38085.098938941956
+Epoch [11/15], Step [3600/14999], Loss: 2.1421 time consumed: 38099.70221614838
+Epoch [11/15], Step [3700/14999], Loss: 0.9517 time consumed: 38114.11074447632
+Epoch [11/15], Step [3800/14999], Loss: 1.9935 time consumed: 38128.724292993546
+Epoch [11/15], Step [3900/14999], Loss: 2.0953 time consumed: 38143.01826310158
+Epoch [11/15], Step [4000/14999], Loss: 1.5684 time consumed: 38157.41232633591
+Epoch [11/15], Step [4100/14999], Loss: 1.3201 time consumed: 38171.76219391823
+Epoch [11/15], Step [4200/14999], Loss: 1.5565 time consumed: 38185.97066736221
+Epoch [11/15], Step [4300/14999], Loss: 1.6741 time consumed: 38200.152545928955
+Epoch [11/15], Step [4400/14999], Loss: 2.1505 time consumed: 38214.86050534248
+Epoch [11/15], Step [4500/14999], Loss: 1.8076 time consumed: 38228.704884529114
+Epoch [11/15], Step [4600/14999], Loss: 2.9687 time consumed: 38242.70688676834
+Epoch [11/15], Step [4700/14999], Loss: 1.7386 time consumed: 38256.76915431023
+Epoch [11/15], Step [4800/14999], Loss: 2.3040 time consumed: 38271.13203001022
+Epoch [11/15], Step [4900/14999], Loss: 1.7480 time consumed: 38285.49370384216
+Epoch [11/15], Step [5000/14999], Loss: 0.7984 time consumed: 38299.8975174427
+Epoch [11/15], Step [5100/14999], Loss: 1.5713 time consumed: 38314.26616311073
+Epoch [11/15], Step [5200/14999], Loss: 0.3750 time consumed: 38328.91577720642
+Epoch [11/15], Step [5300/14999], Loss: 2.1745 time consumed: 38343.32013678551
+Epoch [11/15], Step [5400/14999], Loss: 1.3324 time consumed: 38357.36143660545
+Epoch [11/15], Step [5500/14999], Loss: 2.3707 time consumed: 38371.74069404602
+Epoch [11/15], Step [5600/14999], Loss: 2.8092 time consumed: 38385.920110464096
+Epoch [11/15], Step [5700/14999], Loss: 2.0159 time consumed: 38400.56221270561
+Epoch [11/15], Step [5800/14999], Loss: 2.1502 time consumed: 38414.839030981064
+Epoch [11/15], Step [5900/14999], Loss: 2.5906 time consumed: 38429.28075814247
+Epoch [11/15], Step [6000/14999], Loss: 2.3331 time consumed: 38443.26481580734
+Epoch [11/15], Step [6100/14999], Loss: 2.0807 time consumed: 38457.43628072739
+ Accuracy of the network on the test set after Epoch 11 is: 0.004703211157963023
+ Top 2 accuracy on the testing: 0.008514433992864093
+ Top 5 accuracy on the testing: 0.014352903016542328
+ Top 10 accuracy on the testing: 0.02075900097307817
+ Top 50 accuracy on the testing: 0.04743756081738566
+ Top 100 accuracy on the testing: 0.06925072980862795
+ Top 200 accuracy on the testing: 0.09892961401232565
+ Top 300 accuracy on the testing: 0.12268893934479404
+ Top 500 accuracy on the testing: 0.16185533571196886
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.0478430100551411 Found in Epoch No: 5
+ Best Top_100_accuracy on test set till this epoch: 0.06925072980862795 Found in Epoch No: 11
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16185533571196886 Found in Epoch No: 11
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023]
+14999
+Epoch [12/15], Step [100/14999], Loss: 1.3702 time consumed: 41466.95391511917
+Epoch [12/15], Step [200/14999], Loss: 0.9656 time consumed: 41481.68482661247
+Epoch [12/15], Step [300/14999], Loss: 0.9461 time consumed: 41496.27506709099
+Epoch [12/15], Step [400/14999], Loss: 4.1808 time consumed: 41510.76380062103
+Epoch [12/15], Step [500/14999], Loss: 1.2602 time consumed: 41525.63039398193
+Epoch [12/15], Step [600/14999], Loss: 0.5073 time consumed: 41540.09223127365
+Epoch [12/15], Step [700/14999], Loss: 1.3460 time consumed: 41554.57557249069
+Epoch [12/15], Step [800/14999], Loss: 0.9383 time consumed: 41569.26223754883
+Epoch [12/15], Step [900/14999], Loss: 1.6051 time consumed: 41583.70180892944
+Epoch [12/15], Step [1000/14999], Loss: 1.5593 time consumed: 41598.063341617584
+Epoch [12/15], Step [1100/14999], Loss: 0.8351 time consumed: 41612.50199007988
+Epoch [12/15], Step [1200/14999], Loss: 2.0594 time consumed: 41627.13586950302
+Epoch [12/15], Step [1300/14999], Loss: 1.9087 time consumed: 41641.707971572876
+Epoch [12/15], Step [1400/14999], Loss: 2.2877 time consumed: 41656.142825603485
+Epoch [12/15], Step [1500/14999], Loss: 0.7095 time consumed: 41670.484921216965
+Epoch [12/15], Step [1600/14999], Loss: 1.2808 time consumed: 41685.20153236389
+Epoch [12/15], Step [1700/14999], Loss: 2.0268 time consumed: 41699.65758109093
+Epoch [12/15], Step [1800/14999], Loss: 0.9097 time consumed: 41714.25358605385
+Epoch [12/15], Step [1900/14999], Loss: 1.5053 time consumed: 41728.71902990341
+Epoch [12/15], Step [2000/14999], Loss: 1.0295 time consumed: 41743.19597506523
+Epoch [12/15], Step [2100/14999], Loss: 1.0527 time consumed: 41757.71351504326
+Epoch [12/15], Step [2200/14999], Loss: 1.0742 time consumed: 41772.17714166641
+Epoch [12/15], Step [2300/14999], Loss: 0.8866 time consumed: 41786.86303091049
+Epoch [12/15], Step [2400/14999], Loss: 2.5589 time consumed: 41801.5397131443
+Epoch [12/15], Step [2500/14999], Loss: 2.6291 time consumed: 41816.237179517746
+Epoch [12/15], Step [2600/14999], Loss: 1.5061 time consumed: 41830.8056204319
+Epoch [12/15], Step [2700/14999], Loss: 2.0976 time consumed: 41845.4970138073
+Epoch [12/15], Step [2800/14999], Loss: 2.6264 time consumed: 41859.72765135765
+Epoch [12/15], Step [2900/14999], Loss: 4.0869 time consumed: 41874.12990689278
+Epoch [12/15], Step [3000/14999], Loss: 1.2522 time consumed: 41888.730883836746
+Epoch [12/15], Step [3100/14999], Loss: 3.1896 time consumed: 41903.27025151253
+Epoch [12/15], Step [3200/14999], Loss: 4.1179 time consumed: 41917.49857521057
+Epoch [12/15], Step [3300/14999], Loss: 1.0411 time consumed: 41931.902064323425
+Epoch [12/15], Step [3400/14999], Loss: 2.2111 time consumed: 41945.960227012634
+Epoch [12/15], Step [3500/14999], Loss: 1.9672 time consumed: 41960.39212799072
+Epoch [12/15], Step [3600/14999], Loss: 1.9259 time consumed: 41974.906309366226
+Epoch [12/15], Step [3700/14999], Loss: 1.1699 time consumed: 41989.285353422165
+Epoch [12/15], Step [3800/14999], Loss: 1.6668 time consumed: 42003.87368440628
+Epoch [12/15], Step [3900/14999], Loss: 1.9515 time consumed: 42018.17746472359
+Epoch [12/15], Step [4000/14999], Loss: 1.8201 time consumed: 42032.619738817215
+Epoch [12/15], Step [4100/14999], Loss: 2.7923 time consumed: 42047.113614320755
+Epoch [12/15], Step [4200/14999], Loss: 1.8119 time consumed: 42061.3578248024
+Epoch [12/15], Step [4300/14999], Loss: 1.4184 time consumed: 42075.73006558418
+Epoch [12/15], Step [4400/14999], Loss: 2.0559 time consumed: 42090.50499224663
+Epoch [12/15], Step [4500/14999], Loss: 1.4479 time consumed: 42104.6102142334
+Epoch [12/15], Step [4600/14999], Loss: 2.9265 time consumed: 42119.21384215355
+Epoch [12/15], Step [4700/14999], Loss: 1.9863 time consumed: 42133.5328412056
+Epoch [12/15], Step [4800/14999], Loss: 2.9286 time consumed: 42147.96325826645
+Epoch [12/15], Step [4900/14999], Loss: 1.5621 time consumed: 42162.542759656906
+Epoch [12/15], Step [5000/14999], Loss: 0.9032 time consumed: 42177.41769051552
+Epoch [12/15], Step [5100/14999], Loss: 1.0298 time consumed: 42191.726811409
+Epoch [12/15], Step [5200/14999], Loss: 0.5371 time consumed: 42206.0351061821
+Epoch [12/15], Step [5300/14999], Loss: 1.9369 time consumed: 42220.42672538757
+Epoch [12/15], Step [5400/14999], Loss: 1.3578 time consumed: 42234.43349146843
+Epoch [12/15], Step [5500/14999], Loss: 1.6981 time consumed: 42248.92726421356
+Epoch [12/15], Step [5600/14999], Loss: 3.0172 time consumed: 42263.176631212234
+Epoch [12/15], Step [5700/14999], Loss: 1.5317 time consumed: 42277.84449291229
+Epoch [12/15], Step [5800/14999], Loss: 1.9683 time consumed: 42292.19161915779
+Epoch [12/15], Step [5900/14999], Loss: 3.0284 time consumed: 42306.62715435028
+Epoch [12/15], Step [6000/14999], Loss: 2.8734 time consumed: 42320.754437446594
+Epoch [12/15], Step [6100/14999], Loss: 2.6811 time consumed: 42335.044150829315
+ Accuracy of the network on the test set after Epoch 12 is: 0.004865390853065196
+ Top 2 accuracy on the testing: 0.008190074602659747
+ Top 5 accuracy on the testing: 0.014190723321440156
+ Top 10 accuracy on the testing: 0.020921180668180345
+ Top 50 accuracy on the testing: 0.04800518975024327
+ Top 100 accuracy on the testing: 0.0690074602659747
+ Top 200 accuracy on the testing: 0.0986863444696724
+ Top 300 accuracy on the testing: 0.12268893934479404
+ Top 500 accuracy on the testing: 0.16153097632176452
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.04800518975024327 Found in Epoch No: 12
+ Best Top_100_accuracy on test set till this epoch: 0.06925072980862795 Found in Epoch No: 11
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16185533571196886 Found in Epoch No: 11
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023, 0.004865390853065196]
+14999
+Epoch [13/15], Step [100/14999], Loss: 1.6681 time consumed: 45316.19933843613
+Epoch [13/15], Step [200/14999], Loss: 1.5060 time consumed: 45330.432210445404
+Epoch [13/15], Step [300/14999], Loss: 0.8833 time consumed: 45344.672333717346
+Epoch [13/15], Step [400/14999], Loss: 4.0623 time consumed: 45358.81496477127
+Epoch [13/15], Step [500/14999], Loss: 1.2694 time consumed: 45373.234085559845
+Epoch [13/15], Step [600/14999], Loss: 1.0132 time consumed: 45387.33341693878
+Epoch [13/15], Step [700/14999], Loss: 0.7405 time consumed: 45401.44403576851
+Epoch [13/15], Step [800/14999], Loss: 1.5029 time consumed: 45415.93913793564
+Epoch [13/15], Step [900/14999], Loss: 2.0481 time consumed: 45429.94529724121
+Epoch [13/15], Step [1000/14999], Loss: 2.1103 time consumed: 45443.94965338707
+Epoch [13/15], Step [1100/14999], Loss: 0.6364 time consumed: 45458.2312810421
+Epoch [13/15], Step [1200/14999], Loss: 1.5576 time consumed: 45472.614151477814
+Epoch [13/15], Step [1300/14999], Loss: 1.3842 time consumed: 45486.75223207474
+Epoch [13/15], Step [1400/14999], Loss: 1.2275 time consumed: 45500.946336746216
+Epoch [13/15], Step [1500/14999], Loss: 0.7021 time consumed: 45515.05855846405
+Epoch [13/15], Step [1600/14999], Loss: 1.0742 time consumed: 45529.298854351044
+Epoch [13/15], Step [1700/14999], Loss: 2.5161 time consumed: 45543.393840789795
+Epoch [13/15], Step [1800/14999], Loss: 0.8128 time consumed: 45557.95949959755
+Epoch [13/15], Step [1900/14999], Loss: 0.8439 time consumed: 45572.16653037071
+Epoch [13/15], Step [2000/14999], Loss: 0.7330 time consumed: 45586.34476184845
+Epoch [13/15], Step [2100/14999], Loss: 1.2512 time consumed: 45600.64299631119
+Epoch [13/15], Step [2200/14999], Loss: 1.3837 time consumed: 45614.71706819534
+Epoch [13/15], Step [2300/14999], Loss: 0.8522 time consumed: 45629.0398440361
+Epoch [13/15], Step [2400/14999], Loss: 2.6400 time consumed: 45643.631152391434
+Epoch [13/15], Step [2500/14999], Loss: 3.5293 time consumed: 45657.86244726181
+Epoch [13/15], Step [2600/14999], Loss: 2.2226 time consumed: 45671.3277695179
+Epoch [13/15], Step [2700/14999], Loss: 2.1001 time consumed: 45685.64338898659
+Epoch [13/15], Step [2800/14999], Loss: 1.9094 time consumed: 45699.64801597595
+Epoch [13/15], Step [2900/14999], Loss: 3.8249 time consumed: 45713.996436834335
+Epoch [13/15], Step [3000/14999], Loss: 1.0965 time consumed: 45728.30497479439
+Epoch [13/15], Step [3100/14999], Loss: 3.0616 time consumed: 45742.70436286926
+Epoch [13/15], Step [3200/14999], Loss: 2.7713 time consumed: 45756.87707018852
+Epoch [13/15], Step [3300/14999], Loss: 0.8344 time consumed: 45771.355125665665
+Epoch [13/15], Step [3400/14999], Loss: 2.8421 time consumed: 45785.70396232605
+Epoch [13/15], Step [3500/14999], Loss: 1.4747 time consumed: 45800.02178120613
+Epoch [13/15], Step [3600/14999], Loss: 1.6510 time consumed: 45814.28266501427
+Epoch [13/15], Step [3700/14999], Loss: 0.7929 time consumed: 45828.46644091606
+Epoch [13/15], Step [3800/14999], Loss: 1.4775 time consumed: 45842.73112010956
+Epoch [13/15], Step [3900/14999], Loss: 2.0305 time consumed: 45856.98204278946
+Epoch [13/15], Step [4000/14999], Loss: 1.3922 time consumed: 45871.10097146034
+Epoch [13/15], Step [4100/14999], Loss: 1.1332 time consumed: 45885.468008995056
+Epoch [13/15], Step [4200/14999], Loss: 1.8401 time consumed: 45899.6022465229
+Epoch [13/15], Step [4300/14999], Loss: 1.6025 time consumed: 45913.66152262688
+Epoch [13/15], Step [4400/14999], Loss: 1.4844 time consumed: 45928.19820046425
+Epoch [13/15], Step [4500/14999], Loss: 1.2036 time consumed: 45942.06750202179
+Epoch [13/15], Step [4600/14999], Loss: 3.1390 time consumed: 45956.48847794533
+Epoch [13/15], Step [4700/14999], Loss: 2.4353 time consumed: 45970.77579379082
+Epoch [13/15], Step [4800/14999], Loss: 2.4971 time consumed: 45984.950167417526
+Epoch [13/15], Step [4900/14999], Loss: 1.2812 time consumed: 45999.22475147247
+Epoch [13/15], Step [5000/14999], Loss: 0.6774 time consumed: 46013.48506951332
+Epoch [13/15], Step [5100/14999], Loss: 1.5684 time consumed: 46027.815365076065
+Epoch [13/15], Step [5200/14999], Loss: 0.8276 time consumed: 46041.898005485535
+Epoch [13/15], Step [5300/14999], Loss: 2.2841 time consumed: 46056.08781838417
+Epoch [13/15], Step [5400/14999], Loss: 2.0819 time consumed: 46069.94840478897
+Epoch [13/15], Step [5500/14999], Loss: 0.9217 time consumed: 46084.10291528702
+Epoch [13/15], Step [5600/14999], Loss: 2.5096 time consumed: 46098.369926691055
+Epoch [13/15], Step [5700/14999], Loss: 1.0508 time consumed: 46112.86016225815
+Epoch [13/15], Step [5800/14999], Loss: 2.1676 time consumed: 46127.16404175758
+Epoch [13/15], Step [5900/14999], Loss: 3.3085 time consumed: 46141.65236258507
+Epoch [13/15], Step [6000/14999], Loss: 2.1321 time consumed: 46155.62624382973
+Epoch [13/15], Step [6100/14999], Loss: 1.6361 time consumed: 46169.76708984375
+ Accuracy of the network on the test set after Epoch 13 is: 0.004703211157963023
+ Top 2 accuracy on the testing: 0.008433344145313007
+ Top 5 accuracy on the testing: 0.014190723321440156
+ Top 10 accuracy on the testing: 0.021083360363282518
+ Top 50 accuracy on the testing: 0.04759974051248784
+ Top 100 accuracy on the testing: 0.06916963996107688
+ Top 200 accuracy on the testing: 0.09876743431722348
+ Top 300 accuracy on the testing: 0.12244566980214078
+ Top 500 accuracy on the testing: 0.16128770677911125
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.04800518975024327 Found in Epoch No: 12
+ Best Top_100_accuracy on test set till this epoch: 0.06925072980862795 Found in Epoch No: 11
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16185533571196886 Found in Epoch No: 11
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023, 0.004865390853065196, 0.004703211157963023]
+14999
+Epoch [14/15], Step [100/14999], Loss: 1.1120 time consumed: 49149.03637123108
+Epoch [14/15], Step [200/14999], Loss: 1.1608 time consumed: 49163.5812895298
+Epoch [14/15], Step [300/14999], Loss: 0.9559 time consumed: 49178.03306174278
+Epoch [14/15], Step [400/14999], Loss: 3.1298 time consumed: 49192.37279987335
+Epoch [14/15], Step [500/14999], Loss: 1.2968 time consumed: 49207.129467725754
+Epoch [14/15], Step [600/14999], Loss: 0.3465 time consumed: 49221.50244855881
+Epoch [14/15], Step [700/14999], Loss: 1.1579 time consumed: 49235.87336349487
+Epoch [14/15], Step [800/14999], Loss: 0.6355 time consumed: 49250.47767806053
+Epoch [14/15], Step [900/14999], Loss: 0.7398 time consumed: 49264.90769672394
+Epoch [14/15], Step [1000/14999], Loss: 1.4557 time consumed: 49279.44208097458
+Epoch [14/15], Step [1100/14999], Loss: 0.7808 time consumed: 49293.972918987274
+Epoch [14/15], Step [1200/14999], Loss: 1.4872 time consumed: 49308.764204502106
+Epoch [14/15], Step [1300/14999], Loss: 1.5025 time consumed: 49323.3265953064
+Epoch [14/15], Step [1400/14999], Loss: 1.8348 time consumed: 49337.72343325615
+Epoch [14/15], Step [1500/14999], Loss: 1.4274 time consumed: 49352.00203680992
+Epoch [14/15], Step [1600/14999], Loss: 0.9168 time consumed: 49366.71402549744
+Epoch [14/15], Step [1700/14999], Loss: 2.0668 time consumed: 49381.088116407394
+Epoch [14/15], Step [1800/14999], Loss: 0.8439 time consumed: 49395.84575009346
+Epoch [14/15], Step [1900/14999], Loss: 0.7113 time consumed: 49410.33434176445
+Epoch [14/15], Step [2000/14999], Loss: 0.8821 time consumed: 49424.934668302536
+Epoch [14/15], Step [2100/14999], Loss: 0.8229 time consumed: 49439.41482877731
+Epoch [14/15], Step [2200/14999], Loss: 0.7981 time consumed: 49453.75472187996
+Epoch [14/15], Step [2300/14999], Loss: 0.8471 time consumed: 49468.49543046951
+Epoch [14/15], Step [2400/14999], Loss: 1.9435 time consumed: 49482.89545607567
+Epoch [14/15], Step [2500/14999], Loss: 2.7236 time consumed: 49497.528749227524
+Epoch [14/15], Step [2600/14999], Loss: 2.3807 time consumed: 49511.85939288139
+Epoch [14/15], Step [2700/14999], Loss: 1.2259 time consumed: 49526.4241001606
+Epoch [14/15], Step [2800/14999], Loss: 2.3821 time consumed: 49540.797219991684
+Epoch [14/15], Step [2900/14999], Loss: 4.5205 time consumed: 49555.41931295395
+Epoch [14/15], Step [3000/14999], Loss: 0.9812 time consumed: 49570.09003782272
+Epoch [14/15], Step [3100/14999], Loss: 2.4365 time consumed: 49584.925303936005
+Epoch [14/15], Step [3200/14999], Loss: 2.7417 time consumed: 49599.574338912964
+Epoch [14/15], Step [3300/14999], Loss: 0.7970 time consumed: 49614.39218664169
+Epoch [14/15], Step [3400/14999], Loss: 2.8026 time consumed: 49628.92187833786
+Epoch [14/15], Step [3500/14999], Loss: 1.0932 time consumed: 49643.6482963562
+Epoch [14/15], Step [3600/14999], Loss: 1.1444 time consumed: 49658.18125605583
+Epoch [14/15], Step [3700/14999], Loss: 0.9048 time consumed: 49672.74712705612
+Epoch [14/15], Step [3800/14999], Loss: 3.2718 time consumed: 49687.31289887428
+Epoch [14/15], Step [3900/14999], Loss: 2.2178 time consumed: 49701.81172084808
+Epoch [14/15], Step [4000/14999], Loss: 1.3770 time consumed: 49716.304636478424
+Epoch [14/15], Step [4100/14999], Loss: 1.5918 time consumed: 49730.75313615799
+Epoch [14/15], Step [4200/14999], Loss: 0.9645 time consumed: 49744.98449277878
+Epoch [14/15], Step [4300/14999], Loss: 1.5771 time consumed: 49759.67865777016
+Epoch [14/15], Step [4400/14999], Loss: 1.3901 time consumed: 49774.38432455063
+Epoch [14/15], Step [4500/14999], Loss: 1.2425 time consumed: 49788.49599981308
+Epoch [14/15], Step [4600/14999], Loss: 3.1830 time consumed: 49802.933470249176
+Epoch [14/15], Step [4700/14999], Loss: 1.6465 time consumed: 49817.30870747566
+Epoch [14/15], Step [4800/14999], Loss: 2.1700 time consumed: 49831.87620997429
+Epoch [14/15], Step [4900/14999], Loss: 1.4950 time consumed: 49846.46659898758
+Epoch [14/15], Step [5000/14999], Loss: 0.7508 time consumed: 49861.009261608124
+Epoch [14/15], Step [5100/14999], Loss: 1.1030 time consumed: 49875.65487861633
+Epoch [14/15], Step [5200/14999], Loss: 0.6023 time consumed: 49890.17975568771
+Epoch [14/15], Step [5300/14999], Loss: 2.0122 time consumed: 49904.704135894775
+Epoch [14/15], Step [5400/14999], Loss: 0.9755 time consumed: 49918.93034029007
+Epoch [14/15], Step [5500/14999], Loss: 0.9744 time consumed: 49933.18661904335
+Epoch [14/15], Step [5600/14999], Loss: 2.9547 time consumed: 49947.39488339424
+Epoch [14/15], Step [5700/14999], Loss: 0.9428 time consumed: 49962.39901137352
+Epoch [14/15], Step [5800/14999], Loss: 1.3318 time consumed: 49977.20187354088
+Epoch [14/15], Step [5900/14999], Loss: 3.0021 time consumed: 49991.91098046303
+Epoch [14/15], Step [6000/14999], Loss: 2.6468 time consumed: 50006.24102020264
+Epoch [14/15], Step [6100/14999], Loss: 1.4143 time consumed: 50020.44644403458
+ Accuracy of the network on the test set after Epoch 14 is: 0.004703211157963023
+ Top 2 accuracy on the testing: 0.008433344145313007
+ Top 5 accuracy on the testing: 0.014109633473889069
+ Top 10 accuracy on the testing: 0.021164450210833605
+ Top 50 accuracy on the testing: 0.04776192020759001
+ Top 100 accuracy on the testing: 0.0690074602659747
+ Top 200 accuracy on the testing: 0.09852416477457022
+ Top 300 accuracy on the testing: 0.12268893934479404
+ Top 500 accuracy on the testing: 0.16177424586441777
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.021164450210833605 Found in Epoch No: 9
+ Best Top_50_accuracy on test set till this epoch: 0.04800518975024327 Found in Epoch No: 12
+ Best Top_100_accuracy on test set till this epoch: 0.06925072980862795 Found in Epoch No: 11
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16185533571196886 Found in Epoch No: 11
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023]
+14999
+Epoch [15/15], Step [100/14999], Loss: 1.5841 time consumed: 52968.22224402428
+Epoch [15/15], Step [200/14999], Loss: 1.1437 time consumed: 52982.70649766922
+Epoch [15/15], Step [300/14999], Loss: 0.8120 time consumed: 52997.17266082764
+Epoch [15/15], Step [400/14999], Loss: 4.1507 time consumed: 53011.33439326286
+Epoch [15/15], Step [500/14999], Loss: 1.3439 time consumed: 53025.96891117096
+Epoch [15/15], Step [600/14999], Loss: 0.6533 time consumed: 53039.97490811348
+Epoch [15/15], Step [700/14999], Loss: 1.3588 time consumed: 53054.06012868881
+Epoch [15/15], Step [800/14999], Loss: 0.5381 time consumed: 53068.517230033875
+Epoch [15/15], Step [900/14999], Loss: 1.3222 time consumed: 53082.82447218895
+Epoch [15/15], Step [1000/14999], Loss: 0.4699 time consumed: 53097.06235909462
+Epoch [15/15], Step [1100/14999], Loss: 1.0737 time consumed: 53111.39816403389
+Epoch [15/15], Step [1200/14999], Loss: 1.9052 time consumed: 53126.25487565994
+Epoch [15/15], Step [1300/14999], Loss: 1.4232 time consumed: 53140.716516017914
+Epoch [15/15], Step [1400/14999], Loss: 1.3010 time consumed: 53155.084587812424
+Epoch [15/15], Step [1500/14999], Loss: 0.6739 time consumed: 53169.5548658371
+Epoch [15/15], Step [1600/14999], Loss: 0.9560 time consumed: 53184.08533000946
+Epoch [15/15], Step [1700/14999], Loss: 2.0509 time consumed: 53198.53269839287
+Epoch [15/15], Step [1800/14999], Loss: 0.9273 time consumed: 53213.33119702339
+Epoch [15/15], Step [1900/14999], Loss: 0.4188 time consumed: 53227.186510801315
+Epoch [15/15], Step [2000/14999], Loss: 0.6782 time consumed: 53241.777831077576
+Epoch [15/15], Step [2100/14999], Loss: 1.2796 time consumed: 53256.477467536926
+Epoch [15/15], Step [2200/14999], Loss: 1.1801 time consumed: 53270.9593102932
+Epoch [15/15], Step [2300/14999], Loss: 0.6837 time consumed: 53285.548609018326
+Epoch [15/15], Step [2400/14999], Loss: 1.8960 time consumed: 53300.0331363678
+Epoch [15/15], Step [2500/14999], Loss: 2.3173 time consumed: 53314.57352519035
+Epoch [15/15], Step [2600/14999], Loss: 1.8203 time consumed: 53329.04726290703
+Epoch [15/15], Step [2700/14999], Loss: 1.7607 time consumed: 53343.45076584816
+Epoch [15/15], Step [2800/14999], Loss: 1.9673 time consumed: 53357.53021621704
+Epoch [15/15], Step [2900/14999], Loss: 3.2316 time consumed: 53371.94520235062
+Epoch [15/15], Step [3000/14999], Loss: 0.5823 time consumed: 53386.478169202805
+Epoch [15/15], Step [3100/14999], Loss: 2.3655 time consumed: 53400.97941994667
+Epoch [15/15], Step [3200/14999], Loss: 2.8083 time consumed: 53415.24695444107
+Epoch [15/15], Step [3300/14999], Loss: 1.1115 time consumed: 53430.12114620209
+Epoch [15/15], Step [3400/14999], Loss: 2.4041 time consumed: 53444.46646928787
+Epoch [15/15], Step [3500/14999], Loss: 1.3663 time consumed: 53458.9478623867
+Epoch [15/15], Step [3600/14999], Loss: 1.2271 time consumed: 53473.53589749336
+Epoch [15/15], Step [3700/14999], Loss: 0.8322 time consumed: 53487.981242895126
+Epoch [15/15], Step [3800/14999], Loss: 1.4430 time consumed: 53502.61600136757
+Epoch [15/15], Step [3900/14999], Loss: 1.5639 time consumed: 53517.08951044083
+Epoch [15/15], Step [4000/14999], Loss: 2.1599 time consumed: 53531.529621601105
+Epoch [15/15], Step [4100/14999], Loss: 1.2181 time consumed: 53545.92385005951
+Epoch [15/15], Step [4200/14999], Loss: 1.2613 time consumed: 53560.246937036514
+Epoch [15/15], Step [4300/14999], Loss: 0.9480 time consumed: 53574.90612196922
+Epoch [15/15], Step [4400/14999], Loss: 1.5695 time consumed: 53589.64594888687
+Epoch [15/15], Step [4500/14999], Loss: 1.8933 time consumed: 53604.19753789902
+Epoch [15/15], Step [4600/14999], Loss: 2.1098 time consumed: 53618.88378071785
+Epoch [15/15], Step [4700/14999], Loss: 1.1291 time consumed: 53633.07153940201
+Epoch [15/15], Step [4800/14999], Loss: 2.2929 time consumed: 53647.82790637016
+Epoch [15/15], Step [4900/14999], Loss: 1.0737 time consumed: 53662.401406764984
+Epoch [15/15], Step [5000/14999], Loss: 0.8630 time consumed: 53676.81635808945
+Epoch [15/15], Step [5100/14999], Loss: 1.2581 time consumed: 53691.32156944275
+Epoch [15/15], Step [5200/14999], Loss: 0.4571 time consumed: 53705.96507072449
+Epoch [15/15], Step [5300/14999], Loss: 2.1814 time consumed: 53720.40889000893
+Epoch [15/15], Step [5400/14999], Loss: 1.0737 time consumed: 53734.37288856506
+Epoch [15/15], Step [5500/14999], Loss: 1.3608 time consumed: 53748.54098677635
+Epoch [15/15], Step [5600/14999], Loss: 2.2896 time consumed: 53762.89081454277
+Epoch [15/15], Step [5700/14999], Loss: 1.1981 time consumed: 53777.487439394
+Epoch [15/15], Step [5800/14999], Loss: 1.7731 time consumed: 53791.73883318901
+Epoch [15/15], Step [5900/14999], Loss: 2.6670 time consumed: 53806.26544213295
+Epoch [15/15], Step [6000/14999], Loss: 2.0479 time consumed: 53820.292934417725
+Epoch [15/15], Step [6100/14999], Loss: 1.0214 time consumed: 53834.518495082855
+ Accuracy of the network on the test set after Epoch 15 is: 0.004703211157963023
+ Top 2 accuracy on the testing: 0.008433344145313007
+ Top 5 accuracy on the testing: 0.014109633473889069
+ Top 10 accuracy on the testing: 0.02124554005838469
+ Top 50 accuracy on the testing: 0.04768083036003892
+ Top 100 accuracy on the testing: 0.0690074602659747
+ Top 200 accuracy on the testing: 0.09852416477457022
+ Top 300 accuracy on the testing: 0.12260784949724295
+ Top 500 accuracy on the testing: 0.16177424586441777
+ Best Top_1_accuracy on test set till this epoch: 0.005270840090820629 Found in Epoch No: 6
+ Best Top_10_accuracy on test set till this epoch: 0.02124554005838469 Found in Epoch No: 15
+ Best Top_50_accuracy on test set till this epoch: 0.04800518975024327 Found in Epoch No: 12
+ Best Top_100_accuracy on test set till this epoch: 0.06925072980862795 Found in Epoch No: 11
+ Best Top_200_accuracy on test set till this epoch: 0.09917288355497891 Found in Epoch No: 8
+ Best Top_300_accuracy on test set till this epoch: 0.12268893934479404 Found in Epoch No: 5
+ Best Top_500_accuracy on test set till this epoch: 0.16185533571196886 Found in Epoch No: 11
+ Top_1_accuracy: [0.0039734025300032436, 0.0044599416153097635, 0.0046221213104119365, 0.004865390853065196, 0.0051897502432695424, 0.005270840090820629, 0.005108660395718456, 0.0047843010055141095, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023, 0.004865390853065196, 0.004703211157963023, 0.004703211157963023, 0.004703211157963023]
+======================================
+Training Completed, Evaluating the test set using the best model
+======================================
